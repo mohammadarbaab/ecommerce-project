@@ -83,10 +83,10 @@ function Navbar({ children }) {
                           className="h-6 w-6"
                           aria-hidden="true"
                         />
-                        <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                          Badge
-                        </span>
                       </button>
+                      <span className="inline-flex items-center rounded-md mb-7 -ml-3  bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+                        0
+                      </span>
 
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
@@ -191,10 +191,11 @@ function Navbar({ children }) {
                         className="h-6 w-6"
                         aria-hidden="true"
                       />
-                      <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                        Badge
-                      </span>
+                      
                     </button>
+                    <span className="inline-flex items-center rounded-md mb-7 -ml-3 bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+                        0
+                      </span>
                   </div>
                   <div className="mt-3 space-y-1 px-2">
                     {userNavigation.map((item) => (
@@ -217,7 +218,7 @@ function Navbar({ children }) {
         <header className="bg-white shadow">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-              Dashboard
+              e-commerce
             </h1>
           </div>
         </header>

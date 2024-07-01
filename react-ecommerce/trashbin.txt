@@ -1,3 +1,106 @@
+
+                <a
+                  href="#"
+                  className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+                >
+                  9
+                </a>
+                <a
+                  href="#"
+                  className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+                >
+                  10
+                </a>
+ 
+
+                <a
+                  href="#"
+                  className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex"
+                >
+                  3
+                </a>
+                <span className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 focus:outline-offset-0">
+                  ...
+                </span>
+                <a
+                  href="#"
+                  className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex"
+                >
+                  8
+                </a>
+ 
+
+                {/* <h2 id="products-heading" className="sr-only">
+                  Products
+                </h2> */}
+ 
+New Arrivals
+ 
+Dashboard
+ 
+or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+ 
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device 
+ 
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+ 
+
+    -->
+ 
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+ 
+ <ul
+                      role="list"
+                      className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900"
+                    >
+                      {subCategories.map((category) => (
+                        <li key={category.name}>
+                          <a href={category.href}>{category.name}</a>
+                        </li>
+                      ))}
+                    </ul>
+ 
+<ul
+                      role="list"
+                      className="px-2 py-3 font-medium text-gray-900"
+                    >
+                      {subCategories.map((category) => (
+                        <li key={category.name}>
+                          <a href={category.href} className="block px-2 py-3">
+                            {category.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+ 
+Dashboard
+ 
+ mb-7 -ml-3
+ 
+Badge
+ 
 BellIcon
  
 
