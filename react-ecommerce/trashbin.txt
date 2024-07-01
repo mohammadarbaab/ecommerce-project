@@ -1,2 +1,67 @@
+BellIcon
+ 
+
+  { name: 'Projects', href: '#', current: false },
+  { name: 'Calendar', href: '#', current: false },
+  { name: 'Reports', href: '#', current: false },
+ 
+
+import { ProductList } from './productslist/ProductList';
+ 
+
+    <ProductList />
+    
+ 
+/* Your content */
+ 
+</body>
+ 
+<body>
+ 
+ <html 
+ 
+
+                    <ul
+                      role="list"
+                      className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900"
+                    >
+                      {subCategories.map((category) => (
+                        <li key={category.name}>
+                          <a href={category.href}>{category.name}</a>
+                        </li>
+                      ))}
+                    </ul>
+ 
+<ul
+                      role="list"
+                      className="px-2 py-3 font-medium text-gray-900"
+                    >
+                      {subCategories.map((category) => (
+                        <li key={category.name}>
+                          <a href={category.href} className="block px-2 py-3">
+                            {category.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+ 
+
+const subCategories = [
+  { name: "Totes", href: "#" },
+  { name: "Backpacks", href: "#" },
+  { name: "Travel Bags", href: "#" },
+  { name: "Hip Bags", href: "#" },
+  { name: "Laptop Sleeves", href: "#" },
+];
+ 
+
+const subCategories = [
+  { name: "Totes", href: "#" },
+  { name: "Backpacks", href: "#" },
+  { name: "Travel Bags", href: "#" },
+  { name: "Hip Bags", href: "#" },
+  { name: "Laptop Sleeves", href: "#" },
+];
+ 
 {/* Your content */}
  
