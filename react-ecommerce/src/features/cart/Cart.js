@@ -47,7 +47,9 @@ export function Cart() {
   return (
     <div className="mx-auto mt-12 bg-white max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-      <h1 className="text-4xl font-bold tracking-tight text-gray-900 my-5">Cart</h1>
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 my-5">
+          Cart
+        </h1>
         <div className="flow-root">
           <ul role="list" className="-my-6 divide-y divide-gray-200">
             {products.map((product) => (
@@ -74,11 +76,17 @@ export function Cart() {
                   </div>
                   <div className="flex flex-1 items-end justify-between text-sm">
                     <div className="text-gray-500">
-                    <label htmlFor="quentity" className="inline mr-5  text-sm font-medium leading-6 text-gray-900">Qty</label>
-                    <select>
+                      <label
+                        htmlFor="quentity"
+                        className="inline mr-5  text-sm font-medium leading-6 text-gray-900"
+                      >
+                        Qty
+                      </label>
+                      <select>
                         <option value="1">1</option>
                         <option value="2">2</option>
-                    </select></div>
+                      </select>
+                    </div>
 
                     <div className="flex">
                       <button
@@ -105,25 +113,25 @@ export function Cart() {
           Shipping and taxes calculated at checkout.
         </p>
         <div className="mt-6">
-          <a
-            href="#"
+          <Link
+            to="/checkout"
             className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
           >
             Checkout
-          </a>
+          </Link> 
         </div>
         <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
           <p>
             or{" "}
-            <Link to='/'>
-            <button
-              type="button"
-              className="font-medium text-indigo-600 hover:text-indigo-500"
-              onClick={() => setOpen(false)}
-            >
-              Continue Shopping
-              <span aria-hidden="true"> &rarr;</span>
-            </button>
+            <Link to="/">
+              <button
+                type="button"
+                className="font-medium text-indigo-600 hover:text-indigo-500"
+                onClick={() => setOpen(false)}
+              >
+                Continue Shopping
+                <span aria-hidden="true"> &rarr;</span>
+              </button>
             </Link>
           </p>
         </div>

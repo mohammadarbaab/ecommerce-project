@@ -13,7 +13,11 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/react";
-import { ChevronLeftIcon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
   FunnelIcon,
