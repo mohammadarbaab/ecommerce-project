@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, incrementAsync, selectCount } from "./productListSlice";
+import { increment, incrementAsync, selectCount } from "../productSlice";
 import {
   Dialog,
   DialogBackdrop,
@@ -25,6 +25,7 @@ import {
   PlusIcon,
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 
 const sortOptions = [
   { name: "Most Popular", href: "#", current: true },
@@ -365,11 +366,7 @@ export function ProductList() {
 
                         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                           {products.map((product) => (
-                            <a
-                              key={product.id}
-                              href={product.href}
-                              className="group"
-                            >
+                            <Link to="/product-detai">
                               <div className="w-40 h-56 overflow-hidden rounded-lg bg-gray-200 mx-auto ">
                                 <img
                                   src={product.imageSrc}
@@ -386,7 +383,7 @@ export function ProductList() {
                                   {product.price}
                                 </p>
                               </div>
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>

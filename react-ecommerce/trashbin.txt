@@ -1,3 +1,11 @@
+
+                              key={product.id}
+                              href={product.href}
+                              className="group"
+ 
+
+    extend: {},
+ 
 text-base
  
 className="divide-y divide-gray-100"

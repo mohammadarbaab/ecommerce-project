@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from '../features/navbar/Navbar'
-import { ProductList } from '../productslist/ProductList'
+import React from "react";
+import Navbar from "../features/navbar/Navbar";
+import { ProductList } from "../productslist/components/ProductList";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
         <ProductList></ProductList>
       </Navbar>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
