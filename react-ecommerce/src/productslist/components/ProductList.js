@@ -590,10 +590,11 @@ export function ProductList() {
                       <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
                         <h2 className="sr-only">Products</h2>
 
-                        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                        <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                           {products.map((product) => (
                             <Link to="/product-detail">
-                              <div className="w-40 h-56 overflow-hidden border-solid border-2 p-2 rounded-lgmx-auto ">
+                            <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
+                              <div className="flex-grow overflow-hidden ">
                                 <img
                                   src={product.image}
                                   alt={product.title}
@@ -614,6 +615,7 @@ export function ProductList() {
                                 <p className="mt-1 text-lg font-medium text-gray-900">
                                   {product.category}
                                 </p>
+                              </div>
                               </div>
                             </Link>
                           ))}
