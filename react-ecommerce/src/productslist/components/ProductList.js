@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, incrementAsync, selectCount } from "../productSlice";
+import { increment, fetchAllProductsAsync, selectAllProducts, selectCount } from "../productSlice";
 import {
   Dialog,
   DialogBackdrop,
@@ -78,9 +78,10 @@ function classNames(...classes) {
 }
 
 export function ProductList() {
-  // const count = useSelector(selectCount);
+  // const count = useSelector(selectAllProducts);
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const products=useSelector(selectAllProducts);
 
   return (
     <div>

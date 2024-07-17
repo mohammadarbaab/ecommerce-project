@@ -1,3 +1,15 @@
+incrementAsync
+ 
+selectAllProducts
+ 
+selectAllProducts
+ 
+state=>state.product.products
+ 
+../features/product/productSlice
+ 
+counter
+ 
 
 import counterReducer from '../features/counter/counterSlice';
  
