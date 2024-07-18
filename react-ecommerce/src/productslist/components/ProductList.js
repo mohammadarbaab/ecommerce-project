@@ -1,6 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, fetchAllProductsAsync, selectAllProducts, selectCount } from "../productSlice";
+import {
+  increment,
+  fetchAllProductsAsync,
+  selectAllProducts,
+  selectCount,
+} from "../productSlice";
 import {
   Dialog,
   DialogBackdrop,
@@ -37,26 +42,126 @@ const sortOptions = [
 ];
 const filters = [
   {
-    id: "color",
-    name: "Color",
+    id: "brand",
+    name: "Brands",
     options: [
-      { value: "white", label: "White", checked: false },
-      { value: "beige", label: "Beige", checked: false },
-      { value: "blue", label: "Blue", checked: true },
-      { value: "brown", label: "Brown", checked: false },
-      { value: "green", label: "Green", checked: false },
-      { value: "purple", label: "Purple", checked: false },
+      { value: "fjallraven", label: "Fjallraven", checked: false },
+      {
+        value: "mens-casual-premium-slim-fit-t-shirts",
+        label: "Mens Casual Premium Slim Fit T-Shirts",
+        checked: false,
+      },
+      {
+        value: "mens-cotton-jacket",
+        label: "Mens Cotton Jacket",
+        checked: true,
+      },
+      {
+        value: "mens-casual-slim-fit",
+        label: "Mens Casual Slim Fit",
+        checked: false,
+      },
+      {
+        value:
+          "john-hardy-womens-legends-naga-gold-silver-dragon-station-chain-bracelet",
+        label:
+          "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        checked: false,
+      },
+      {
+        value: "solid-gold-petite-micropave",
+        label: "Solid Gold Petite Micropave",
+        checked: false,
+      },
+      {
+        value: "white-gold-plated-princess",
+        label: "White Gold Plated Princess",
+        checked: false,
+      },
+      {
+        value: "pierced-owl-rose-gold-plated-stainless-steel-double",
+        label: "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        checked: false,
+      },
+      {
+        value: "wd-2tb-elements-portable-external-hard-drive",
+        label: "WD 2TB Elements Portable External Hard Drive",
+        checked: false,
+      },
+      {
+        value: "sandisk-ssd-plus-1tb-internal-ssd",
+        label: "SanDisk SSD PLUS 1TB Internal SSD",
+        checked: false,
+      },
+      {
+        value:
+          "silicon-power-256gb-ssd-3d-nand-a55-slc-cache-performance-boost-sata-iii-2-5",
+        label:
+          "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        checked: false,
+      },
+      {
+        value:
+          "wd-4tb-gaming-drive-works-with-playstation-4-portable-external-hard-drive",
+        label:
+          "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        checked: false,
+      },
+      {
+        value: "acer-sb220q-bi-21-5-inches-full-hd-1920-x-1080-ips-ultra-thin",
+        label:
+          "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        checked: false,
+      },
+      {
+        value:
+          "samsung-49-inch-chg90-144hz-curved-gaming-monitor-lc49hg90dmnxza-super-ultrawide-screen-qled",
+        label:
+          "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED",
+        checked: false,
+      },
+      {
+        value: "biylaclesen-womens-3-in-1-snowboard-jacket-winter-coats",
+        label: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        checked: false,
+      },
+      {
+        value:
+          "lock-and-love-womens-removable-hooded-faux-leather-moto-biker-jacket",
+        label:
+          "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        checked: false,
+      },
+      {
+        value: "rain-jacket-women-windbreaker-striped-climbing-raincoats",
+        label: "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        checked: false,
+      },
+      {
+        value: "mbj-womens-solid-short-sleeve-boat-neck-v",
+        label: "MBJ Women's Solid Short Sleeve Boat Neck V",
+        checked: false,
+      },
+      {
+        value: "opna-womens-short-sleeve-moisture",
+        label: "Opna Women's Short Sleeve Moisture",
+        checked: false,
+      },
+      {
+        value: "danvouy-womens-t-shirt-casual-cotton-short",
+        label: "DANVOUY Womens T Shirt Casual Cotton Short",
+        checked: false,
+      },
     ],
   },
   {
     id: "category",
     name: "Category",
     options: [
-      { value: "new-arrivals", label: "New Arrivals", checked: false },
-      { value: "sale", label: "Sale", checked: false },
-      { value: "travel", label: "Travel", checked: true },
-      { value: "organization", label: "Organization", checked: false },
-      { value: "accessories", label: "Accessories", checked: false },
+      { label: "men's clothing" },
+      { label: "jewelery" },
+      { label: "electronics" },
+      { label: "women's clothing" },
     ],
   },
   {
@@ -80,8 +185,12 @@ function classNames(...classes) {
 export function ProductList() {
   // const count = useSelector(selectAllProducts);
   const dispatch = useDispatch();
+  const products = useSelector(selectAllProducts);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const products=useSelector(selectAllProducts);
+
+  useEffect(() => {
+    dispatch(fetchAllProductsAsync());
+  }, [dispatch]);
 
   return (
     <div>
@@ -325,29 +434,29 @@ export function ProductList() {
                         <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                           {products.map((product) => (
                             <Link to="/product-detail">
-                            <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
-                              <div className="flex-grow overflow-hidden ">
-                                <img
-                                  src={product.image}
-                                  alt={product.title}
-                                  width="100px"
-                                  className="h-full w-full object-cover object-center group-hover:opacity-75"
-                                />
-                              </div>
-                              <div className="mt-4 text-center">
-                                <h3 className="text-sm text-gray-700">
-                                  <StarIcon className="w-6 h-6 inline"></StarIcon>
-                                  <span className="align-bottom">
-                                    {product.rating.rate}
-                                  </span>
-                                </h3>
-                                <p className="mt-1 text-lg font-medium text-gray-900">
-                                  ${product.price}
-                                </p>
-                                <p className="mt-1 text-lg font-medium text-gray-900">
-                                  {product.category}
-                                </p>
-                              </div>
+                              <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
+                                <div className="flex-grow overflow-hidden ">
+                                  <img
+                                    src={product.image}
+                                    alt={product.title}
+                                    width="100px"
+                                    className="h-full w-full object-cover object-center group-hover:opacity-75"
+                                  />
+                                </div>
+                                <div className="mt-4 text-center">
+                                  <h3 className="text-sm text-gray-700">
+                                    <StarIcon className="w-6 h-6 inline"></StarIcon>
+                                    <span className="align-bottom">
+                                      {product.rating.rate}
+                                    </span>
+                                  </h3>
+                                  <p className="mt-1 text-lg font-medium text-gray-900">
+                                    ${product.price}
+                                  </p>
+                                  <p className="mt-1 text-lg font-medium text-gray-900">
+                                    {product.category}
+                                  </p>
+                                </div>
                               </div>
                             </Link>
                           ))}

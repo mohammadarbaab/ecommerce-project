@@ -27,10 +27,16 @@ export const productSlice = createSlice({
       .addCase(fetchAllProductsAsync.pending, (state) => {
         state.status = 'loading';
       })
+      //this error where i stuck
+      // .addCase(fetchAllProductsAsync.fulfilled, (state, action) => {
+      //   state.status = 'idle';
+      //   state.products += action.payload;
+      // });
       .addCase(fetchAllProductsAsync.fulfilled, (state, action) => {
         state.status = 'idle';
-        state.products += action.payload;
+        state.products = [...state.products, ...action.payload];
       });
+      
   },
 });
 
