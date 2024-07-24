@@ -35,11 +35,9 @@ import {
 import { Link } from "react-router-dom";
 
 const sortOptions = [
-  { name: "Most Popular", href: "#", current: true },
-  { name: "Best Rating", href: "#", current: false },
-  { name: "Newest", href: "#", current: false },
-  { name: "Price: Low to High", href: "#", current: false },
-  { name: "Price: High to Low", href: "#", current: false },
+  { name: "Best Rating", sort: "rating", order: "desc", current: false },
+  { name: "Price: Low to High", sort: "price", order: "asc", current: false },
+  { name: "Price: High to Low", sort: "price", order: "desc", current: false },
 ];
 const filters = [
   {
@@ -111,8 +109,8 @@ export function ProductList() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const handleFilter = (e, section, option) => {
-    const newFilter ={ ...filter, [section.id]: option.value };
-    setFilter(newFilter)
+    const newFilter = { ...filter, [section.id]: option.value };
+    setFilter(newFilter);
     dispatch(fetchProductsByFilterAsync(newFilter));
     console.log(section.id, option.value);
   };
