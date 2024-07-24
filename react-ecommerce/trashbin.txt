@@ -1,3 +1,18 @@
+fetchAllProduct
+ 
+
+      .addCase(fetchAllProductsAsync.pending, (state) => {
+        state.status = 'loading';
+      })
+ 
+
+        state.status = 'idle';
+        state.products = [...state.products, ...action.payload];
+ 
+fetchAllProductsAsync
+ 
+fetchAllProducts
+ 
 
     options: [
       { "value": "Essence", "label": "Essence", "checked": false },

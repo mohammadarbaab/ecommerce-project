@@ -5,6 +5,7 @@ import {
   fetchAllProductsAsync,
   selectAllProducts,
   selectCount,
+  fetchProductsByFilterAsync,
 } from "../productSlice";
 import {
   Dialog,
@@ -42,59 +43,59 @@ const sortOptions = [
 ];
 const filters = [
   {
-    id: 'category',
-    name: 'Category',
+    id: "category",
+    name: "Category",
     options: [
-      { value: 'smartphones', label: 'smartphones', checked: false },
-      { value: 'laptops', label: 'laptops', checked: false },
-      { value: 'fragrances', label: 'fragrances', checked: false },
-      { value: 'skincare', label: 'skincare', checked: false },
-      { value: 'groceries', label: 'groceries', checked: false },
-      { value: 'home-decoration', label: 'home decoration', checked: false },
-      { value: 'furniture', label: 'furniture', checked: false },
-      { value: 'tops', label: 'tops', checked: false },
-      { value: 'womens-dresses', label: 'womens dresses', checked: false },
-      { value: 'womens-shoes', label: 'womens shoes', checked: false },
-      { value: 'mens-shirts', label: 'mens shirts', checked: false },
-      { value: 'mens-shoes', label: 'mens shoes', checked: false },
-      { value: 'mens-watches', label: 'mens watches', checked: false },
-      { value: 'womens-watches', label: 'womens watches', checked: false },
-      { value: 'womens-bags', label: 'womens bags', checked: false },
-      { value: 'womens-jewellery', label: 'womens jewellery', checked: false },
-      { value: 'sunglasses', label: 'sunglasses', checked: false },
-      { value: 'automotive', label: 'automotive', checked: false },
-      { value: 'motorcycle', label: 'motorcycle', checked: false },
-      { value: 'lighting', label: 'lighting', checked: false },
+      { value: "smartphones", label: "smartphones", checked: false },
+      { value: "laptops", label: "laptops", checked: false },
+      { value: "fragrances", label: "fragrances", checked: false },
+      { value: "skincare", label: "skincare", checked: false },
+      { value: "groceries", label: "groceries", checked: false },
+      { value: "home-decoration", label: "home decoration", checked: false },
+      { value: "furniture", label: "furniture", checked: false },
+      { value: "tops", label: "tops", checked: false },
+      { value: "womens-dresses", label: "womens dresses", checked: false },
+      { value: "womens-shoes", label: "womens shoes", checked: false },
+      { value: "mens-shirts", label: "mens shirts", checked: false },
+      { value: "mens-shoes", label: "mens shoes", checked: false },
+      { value: "mens-watches", label: "mens watches", checked: false },
+      { value: "womens-watches", label: "womens watches", checked: false },
+      { value: "womens-bags", label: "womens bags", checked: false },
+      { value: "womens-jewellery", label: "womens jewellery", checked: false },
+      { value: "sunglasses", label: "sunglasses", checked: false },
+      { value: "automotive", label: "automotive", checked: false },
+      { value: "motorcycle", label: "motorcycle", checked: false },
+      { value: "lighting", label: "lighting", checked: false },
     ],
   },
   {
-    id: 'brand',
-    name: 'Brands',
-    "options": [
-      { "value": "Lipstick", "label": "Lipstick", "checked": false },
-      { "value": "Foundation", "label": "Foundation", "checked": false },
-      { "value": "Mascara", "label": "Mascara", "checked": false },
-      { "value": "Eyeliner", "label": "Eyeliner", "checked": false },
-      { "value": "Perfume", "label": "Perfume", "checked": false },
-      { "value": "Skincare", "label": "Skincare", "checked": false },
-      { "value": "Casual Shoes", "label": "Casual Shoes", "checked": false },
-      { "value": "Sports Shoes", "label": "Sports Shoes", "checked": false },
-      { "value": "Running Shoes", "label": "Running Shoes", "checked": false },
-      { "value": "Sneakers", "label": "Sneakers", "checked": false },
-      { "value": "Sandals", "label": "Sandals", "checked": false },
-      { "value": "Flip Flops", "label": "Flip Flops", "checked": false },
-      { "value": "Boots", "label": "Boots", "checked": false },
-      { "value": "Slippers", "label": "Slippers", "checked": false },
-      { "value": "Groceries", "label": "Groceries" },
-      { "value": "Fruits", "label": "Fruits" },
-      { "value": "Vegetables", "label": "Vegetables" },
-      { "value": "Seafood", "label": "Seafood" },
-      { "value": "Condiments", "label": "Condiments" },
-      { "value": "Desserts", "label": "Desserts" },
-      { "value": "Beverages", "label": "Beverages" },
-      { "value": "Pet Supplies", "label": "Pet Supplies" },
-      { "value": "Dairy", "label": "Dairy" }
-    ]
+    id: "brand",
+    name: "Brands",
+    options: [
+      { value: "Lipstick", label: "Lipstick", checked: false },
+      { value: "Foundation", label: "Foundation", checked: false },
+      { value: "Mascara", label: "Mascara", checked: false },
+      { value: "Eyeliner", label: "Eyeliner", checked: false },
+      { value: "Perfume", label: "Perfume", checked: false },
+      { value: "Skincare", label: "Skincare", checked: false },
+      { value: "Casual Shoes", label: "Casual Shoes", checked: false },
+      { value: "Sports Shoes", label: "Sports Shoes", checked: false },
+      { value: "Running Shoes", label: "Running Shoes", checked: false },
+      { value: "Sneakers", label: "Sneakers", checked: false },
+      { value: "Sandals", label: "Sandals", checked: false },
+      { value: "Flip Flops", label: "Flip Flops", checked: false },
+      { value: "Boots", label: "Boots", checked: false },
+      { value: "Slippers", label: "Slippers", checked: false },
+      { value: "Groceries", label: "Groceries" },
+      { value: "Fruits", label: "Fruits" },
+      { value: "Vegetables", label: "Vegetables" },
+      { value: "Seafood", label: "Seafood" },
+      { value: "Condiments", label: "Condiments" },
+      { value: "Desserts", label: "Desserts" },
+      { value: "Beverages", label: "Beverages" },
+      { value: "Pet Supplies", label: "Pet Supplies" },
+      { value: "Dairy", label: "Dairy" },
+    ],
   },
 ];
 
@@ -104,13 +105,17 @@ function classNames(...classes) {
 
 export function ProductList() {
   // const count = useSelector(selectAllProducts);
+  const [filter, setFilter] = useState({});
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
-  const handleFilter=(e,section,option)=>{
-    console.log(section.id,option.value)
-  }
+  const handleFilter = (e, section, option) => {
+    const newFilter ={ ...filter, [section.id]: option.value };
+    setFilter(newFilter)
+    dispatch(fetchProductsByFilterAsync(newFilter));
+    console.log(section.id, option.value);
+  };
 
   useEffect(() => {
     dispatch(fetchAllProductsAsync());
@@ -330,7 +335,9 @@ export function ProductList() {
                                       defaultValue={option.value}
                                       type="checkbox"
                                       defaultChecked={option.checked}
-                                      onChange={e=>handleFilter(e,section,option)}
+                                      onChange={(e) =>
+                                        handleFilter(e, section, option)
+                                      }
                                       className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                     />
                                     <label
