@@ -42,139 +42,59 @@ const sortOptions = [
 ];
 const filters = [
   {
-    id: "brand",
-    name: "Brands",
+    id: 'category',
+    name: 'Category',
     options: [
-      { value: "fjallraven", label: "Fjallraven", checked: false },
-      {
-        value: "mens-casual-premium-slim-fit-t-shirts",
-        label: "Mens Casual Premium Slim Fit T-Shirts",
-        checked: false,
-      },
-      {
-        value: "mens-cotton-jacket",
-        label: "Mens Cotton Jacket",
-        checked: true,
-      },
-      {
-        value: "mens-casual-slim-fit",
-        label: "Mens Casual Slim Fit",
-        checked: false,
-      },
-      {
-        value:
-          "john-hardy-womens-legends-naga-gold-silver-dragon-station-chain-bracelet",
-        label:
-          "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-        checked: false,
-      },
-      {
-        value: "solid-gold-petite-micropave",
-        label: "Solid Gold Petite Micropave",
-        checked: false,
-      },
-      {
-        value: "white-gold-plated-princess",
-        label: "White Gold Plated Princess",
-        checked: false,
-      },
-      {
-        value: "pierced-owl-rose-gold-plated-stainless-steel-double",
-        label: "Pierced Owl Rose Gold Plated Stainless Steel Double",
-        checked: false,
-      },
-      {
-        value: "wd-2tb-elements-portable-external-hard-drive",
-        label: "WD 2TB Elements Portable External Hard Drive",
-        checked: false,
-      },
-      {
-        value: "sandisk-ssd-plus-1tb-internal-ssd",
-        label: "SanDisk SSD PLUS 1TB Internal SSD",
-        checked: false,
-      },
-      {
-        value:
-          "silicon-power-256gb-ssd-3d-nand-a55-slc-cache-performance-boost-sata-iii-2-5",
-        label:
-          "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-        checked: false,
-      },
-      {
-        value:
-          "wd-4tb-gaming-drive-works-with-playstation-4-portable-external-hard-drive",
-        label:
-          "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-        checked: false,
-      },
-      {
-        value: "acer-sb220q-bi-21-5-inches-full-hd-1920-x-1080-ips-ultra-thin",
-        label:
-          "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-        checked: false,
-      },
-      {
-        value:
-          "samsung-49-inch-chg90-144hz-curved-gaming-monitor-lc49hg90dmnxza-super-ultrawide-screen-qled",
-        label:
-          "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED",
-        checked: false,
-      },
-      {
-        value: "biylaclesen-womens-3-in-1-snowboard-jacket-winter-coats",
-        label: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-        checked: false,
-      },
-      {
-        value:
-          "lock-and-love-womens-removable-hooded-faux-leather-moto-biker-jacket",
-        label:
-          "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-        checked: false,
-      },
-      {
-        value: "rain-jacket-women-windbreaker-striped-climbing-raincoats",
-        label: "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-        checked: false,
-      },
-      {
-        value: "mbj-womens-solid-short-sleeve-boat-neck-v",
-        label: "MBJ Women's Solid Short Sleeve Boat Neck V",
-        checked: false,
-      },
-      {
-        value: "opna-womens-short-sleeve-moisture",
-        label: "Opna Women's Short Sleeve Moisture",
-        checked: false,
-      },
-      {
-        value: "danvouy-womens-t-shirt-casual-cotton-short",
-        label: "DANVOUY Womens T Shirt Casual Cotton Short",
-        checked: false,
-      },
+      { value: 'smartphones', label: 'smartphones', checked: false },
+      { value: 'laptops', label: 'laptops', checked: false },
+      { value: 'fragrances', label: 'fragrances', checked: false },
+      { value: 'skincare', label: 'skincare', checked: false },
+      { value: 'groceries', label: 'groceries', checked: false },
+      { value: 'home-decoration', label: 'home decoration', checked: false },
+      { value: 'furniture', label: 'furniture', checked: false },
+      { value: 'tops', label: 'tops', checked: false },
+      { value: 'womens-dresses', label: 'womens dresses', checked: false },
+      { value: 'womens-shoes', label: 'womens shoes', checked: false },
+      { value: 'mens-shirts', label: 'mens shirts', checked: false },
+      { value: 'mens-shoes', label: 'mens shoes', checked: false },
+      { value: 'mens-watches', label: 'mens watches', checked: false },
+      { value: 'womens-watches', label: 'womens watches', checked: false },
+      { value: 'womens-bags', label: 'womens bags', checked: false },
+      { value: 'womens-jewellery', label: 'womens jewellery', checked: false },
+      { value: 'sunglasses', label: 'sunglasses', checked: false },
+      { value: 'automotive', label: 'automotive', checked: false },
+      { value: 'motorcycle', label: 'motorcycle', checked: false },
+      { value: 'lighting', label: 'lighting', checked: false },
     ],
   },
   {
-    id: "category",
-    name: "Category",
-    options: [
-      { label: "men's clothing" },
-      { label: "jewelery" },
-      { label: "electronics" },
-      { label: "women's clothing" },
-    ],
-  },
-  {
-    id: "size",
-    name: "Size",
-    options: [
-      { value: "2l", label: "2L", checked: false },
-      { value: "6l", label: "6L", checked: false },
-      { value: "12l", label: "12L", checked: false },
-      { value: "18l", label: "18L", checked: false },
-      { value: "20l", label: "20L", checked: false },
-      { value: "40l", label: "40L", checked: true },
-    ],
+    id: 'brand',
+    name: 'Brands',
+    "options": [
+      { "value": "Lipstick", "label": "Lipstick", "checked": false },
+      { "value": "Foundation", "label": "Foundation", "checked": false },
+      { "value": "Mascara", "label": "Mascara", "checked": false },
+      { "value": "Eyeliner", "label": "Eyeliner", "checked": false },
+      { "value": "Perfume", "label": "Perfume", "checked": false },
+      { "value": "Skincare", "label": "Skincare", "checked": false },
+      { "value": "Casual Shoes", "label": "Casual Shoes", "checked": false },
+      { "value": "Sports Shoes", "label": "Sports Shoes", "checked": false },
+      { "value": "Running Shoes", "label": "Running Shoes", "checked": false },
+      { "value": "Sneakers", "label": "Sneakers", "checked": false },
+      { "value": "Sandals", "label": "Sandals", "checked": false },
+      { "value": "Flip Flops", "label": "Flip Flops", "checked": false },
+      { "value": "Boots", "label": "Boots", "checked": false },
+      { "value": "Slippers", "label": "Slippers", "checked": false },
+      { "value": "Groceries", "label": "Groceries" },
+      { "value": "Fruits", "label": "Fruits" },
+      { "value": "Vegetables", "label": "Vegetables" },
+      { "value": "Seafood", "label": "Seafood" },
+      { "value": "Condiments", "label": "Condiments" },
+      { "value": "Desserts", "label": "Desserts" },
+      { "value": "Beverages", "label": "Beverages" },
+      { "value": "Pet Supplies", "label": "Pet Supplies" },
+      { "value": "Dairy", "label": "Dairy" }
+    ]
   },
 ];
 
@@ -187,6 +107,10 @@ export function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  const handleFilter=(e,section,option)=>{
+    console.log(section.id,option.value)
+  }
 
   useEffect(() => {
     dispatch(fetchAllProductsAsync());
@@ -406,6 +330,7 @@ export function ProductList() {
                                       defaultValue={option.value}
                                       type="checkbox"
                                       defaultChecked={option.checked}
+                                      onChange={e=>handleFilter(e,section,option)}
                                       className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                     />
                                     <label
@@ -437,7 +362,7 @@ export function ProductList() {
                               <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
                                 <div className="flex-grow overflow-hidden ">
                                   <img
-                                    src={product.image}
+                                    src={product.thumbnail}
                                     alt={product.title}
                                     width="100px"
                                     className="h-full w-full object-cover object-center group-hover:opacity-75"
