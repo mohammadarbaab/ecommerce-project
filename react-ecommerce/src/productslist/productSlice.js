@@ -14,14 +14,31 @@ export const fetchAllProductsAsync = createAsyncThunk(
   }
 );
 
+// export const fetchProductsByFilterAsync = createAsyncThunk(
+//   "product/fetchProductsByFilters",
+//   async (filter) => {
+//     const response = await fetchProductsByFilters(filter );
+//     // The value we return becomes the fullfilled action payload
+//     return response.data;
+//   }
+// );
+
 export const fetchProductsByFilterAsync = createAsyncThunk(
   "product/fetchProductsByFilters",
   async (filter) => {
-    const response = await fetchProductsByFilters(filter );
-    // The value we return becomes the fullfilled action payload
-    return response.data;
+    try {
+      const response = await fetchProductsByFilters(filter);
+      console.log("Thunk Response:", response);
+      return response.data;
+    } catch (error) {
+      console.error("Thunk Error:", error);
+      return [];
+    }
   }
 );
+
+
+
 
 export const productSlice = createSlice({
   name: "product",
