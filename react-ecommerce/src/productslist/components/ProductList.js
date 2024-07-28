@@ -107,11 +107,17 @@ export function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [sort,setSort]=useState({});
 
   const handleFilter = (e, section, option) => {
-    const newFilter = { ...filter, [section.id]: option.value };
+    console.log(e.target.value);
+    const newFilter = { ...filter };
+    if (e.target.value) {
+      newFilter[section.id].push(option.value);
+    } else {
+      delete newFilter[section.id];
+    }
     setFilter(newFilter);
-    dispatch(fetchProductsByFilterAsync(newFilter));
     console.log(section.id, option.value);
   };
 
@@ -122,15 +128,13 @@ export function ProductList() {
   // };
 
   const handleSort = (e, option) => {
-    const newFilter = { ...filter, _sort: option.sort, _order: option.order };
-    console.log("New Filter:", newFilter);
-    setFilter(newFilter);
-    dispatch(fetchProductsByFilterAsync(newFilter));
+    const sort={_sort:option.sort,_order:option.order};
+    setSort(sort)
   };
 
   useEffect(() => {
-    dispatch(fetchAllProductsAsync());
-  }, [dispatch]);
+    dispatch(fetchProductsByFilterAsync({filter,sort}));
+  }, [dispatch, filter,sort]);
 
   return (
     <div>
@@ -138,7 +142,10 @@ export function ProductList() {
         <div className="bg-white">
           <div>
             {/* Mobile filter dialog */}
-            <MobileFilter mobileFiltersOpen={mobileFiltersOpen} setMobileFiltersOpen={setMobileFiltersOpen}></MobileFilter>
+            <MobileFilter
+              mobileFiltersOpen={mobileFiltersOpen}
+              setMobileFiltersOpen={setMobileFiltersOpen}
+            ></MobileFilter>
 
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
@@ -234,7 +241,7 @@ export function ProductList() {
   );
 }
 
-function DesktopFilter({handleFilter}) {
+function DesktopFilter({ handleFilter }) {
   return (
     <>
       <form className="hidden lg:block">
@@ -294,7 +301,11 @@ function DesktopFilter({handleFilter}) {
   );
 }
 
-function MobileFilter({handleFilter,mobileFiltersOpen,setMobileFiltersOpen}) {
+function MobileFilter({
+  handleFilter,
+  mobileFiltersOpen,
+  setMobileFiltersOpen,
+}) {
   return (
     <Dialog
       className="relative z-40 lg:hidden"
@@ -447,7 +458,7 @@ function Pagination() {
   );
 }
 
-function ProductGrid({products}) {
+function ProductGrid({ products }) {
   return (
     <>
       <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">

@@ -24,20 +24,30 @@ export function fetchAllProducts(amount = 1) {
 //   });
 // }
 
-
-export function fetchProductsByFilters(filter) {
+export function fetchProductsByFilters(filter,sort) {
+  //filter ={"category":["smartphone",]}
+  //sort ={_sort:price,_order="desc"}
   let queryString = "";
   for (let key in filter) {
-    queryString += `${key}=${filter[key]}&`;
+    const categoryValues = filter[key];
+    if (categoryValues.length > 1) {
+      const lastCategoryValue = categoryValues[categoryValues.length - 1];
+      queryString += `${key}=${lastCategoryValue}&`;
+    }
+  }
+  for(let key in sort){
+    queryString+= `${key}=${sort[key]}&`
   }
   queryString = queryString.slice(0, -1); // Remove the trailing '&'
   console.log("Query String:", queryString);
 
   return new Promise(async (resolve) => {
     try {
-      const response = await fetch("http://localhost:8080/products?" + queryString);
+      const response = await fetch(
+        "http://localhost:8080/products?" + queryString
+      );
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error("Network response was not ok");
       }
       const data = await response.json();
       console.log("API Response:", data);

@@ -1,3 +1,23 @@
+
+    const newFilter = { ...filter, _sort: option.sort, _order: option.order };
+    console.log("New Filter:", newFilter);
+    setFilter(newFilter);
+    dispatch(fetchProductsByFilterAsync(newFilter));
+ 
+
+    dispatch(fetchAllProductsAsync());
+ 
+
+    setFilter(newFilter);
+ 
+
+    setFilter(newFilter);
+    dispatch(fetchProductsByFilterAsync(newFilter));
+    console.log(section.id, option.value);
+ 
+
+    const newFilter = { ...filter, [section.id]: option.value };
+ 
 </div>
  
 
