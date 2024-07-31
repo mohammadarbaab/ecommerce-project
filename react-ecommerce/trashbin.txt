@@ -1,3 +1,10 @@
+=[option.value];
+ 
+
+    console.log(section.id, option.value);
+ 
+delete 
+ 
 
     const newFilter = { ...filter, _sort: option.sort, _order: option.order };
     console.log("New Filter:", newFilter);
