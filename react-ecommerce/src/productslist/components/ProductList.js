@@ -110,10 +110,10 @@ export function ProductList() {
   const [sort,setSort]=useState({});
 
   const handleFilter = (e, section, option) => {
-    console.log(e.target.value);
+    console.log(e.target.checked);
     const newFilter = { ...filter };
     // TODO:on server it will support multiple categories
-    if (e.target.value) {
+    if (e.target.checked) {
       if(newFilter[section.id]){
         newFilter[section.id].push(option.value) ;
       }else{
@@ -133,7 +133,7 @@ export function ProductList() {
   //   dispatch(fetchProductsByFilterAsync(newFilter));
   // };
 
-  const handleSort = (e, option) => {
+  const handleSort = (option) => {
     const sort={_sort:option.sort,_order:option.order};
     setSort(sort)
   };
