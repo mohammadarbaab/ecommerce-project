@@ -127,16 +127,16 @@ export function ProductList() {
     setFilter(newFilter);
   };
 
-  // const handleSort = (e,option) => {
-  //   const newFilter = { ...filter, _sort: option.sort, _order:option.order};
-  //   setFilter(newFilter);
-  //   dispatch(fetchProductsByFilterAsync(newFilter));
-  // };
-
-  const handleSort = (option) => {
-    const sort={_sort:option.sort,_order:option.order};
-    setSort(sort)
+  const handleSort = (e,option) => {
+    const newFilter = { ...filter, _sort: option.sort, _order:option.order};
+    setSort(newFilter);
+    dispatch(fetchProductsByFilterAsync(newFilter));
   };
+
+  // const handleSort = (option) => {
+  //   const sort={_sort:option.sort,_order:option.order};
+  //   setSort(sort)
+  // };
 
   useEffect(() => {
     dispatch(fetchProductsByFilterAsync({filter,sort}));
