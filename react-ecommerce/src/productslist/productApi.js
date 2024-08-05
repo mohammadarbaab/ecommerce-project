@@ -24,7 +24,7 @@ export function fetchAllProducts(amount = 1) {
 //   });
 // }
 
-export function fetchProductsByFilters(filter,sort) {
+export function fetchProductsByFilters(filter, sort) {
   //filter ={"category":["smartphone",]}
   //sort ={_sort:price,_order="desc"}
   let queryString = "";
@@ -35,8 +35,8 @@ export function fetchProductsByFilters(filter,sort) {
       queryString += `${key}=${lastCategoryValue}&`;
     }
   }
-  for(let key in sort){
-    queryString+= `${key}=${sort[key]}&`
+  for (let key in sort) {
+    queryString += `${key}=${sort[key]}&`;
   }
   queryString = queryString.slice(0, -1); // Remove the trailing '&'
   console.log("Query String:", queryString);
@@ -58,7 +58,6 @@ export function fetchProductsByFilters(filter,sort) {
     }
   });
 }
-
 
 // CREATE API FOR FETCHBRANDS
 export function fetchBrands() {

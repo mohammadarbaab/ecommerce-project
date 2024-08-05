@@ -23,27 +23,27 @@ import ProductDetailPage from "./pages/ProductDetail";
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Home></Home>
+    element: <Home></Home>,
   },
   {
     path: "/login",
-    element: <Login></Login>
+    element: <Login></Login>,
   },
   {
     path: "/signup",
-    element: <Signup></Signup>
+    element: <Signup></Signup>,
   },
   {
     path: "/cart",
-    element: <CartPage></CartPage>
+    element: <CartPage></CartPage>,
   },
   {
     path: "/checkout",
-    element: <CheckoutPage></CheckoutPage>
+    element: <CheckoutPage></CheckoutPage>,
   },
   {
     path: "/product-detail",
-    element: <ProductDetailPage></ProductDetailPage>
+    element: <ProductDetailPage></ProductDetailPage>,
   },
 ]);
 

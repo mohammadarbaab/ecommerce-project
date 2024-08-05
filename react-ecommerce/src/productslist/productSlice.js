@@ -1,10 +1,15 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchAllProducts, fetchProductsByFilters,fetchBrands,fetchCategories } from "./productApi";
+import {
+  fetchAllProducts,
+  fetchProductsByFilters,
+  fetchBrands,
+  fetchCategories,
+} from "./productApi";
 
 const initialState = {
   products: [],
-  categories:[],
-  brands:[],
+  categories: [],
+  brands: [],
   status: "idle",
 };
 export const fetchAllProductsAsync = createAsyncThunk(
@@ -27,9 +32,9 @@ export const fetchAllProductsAsync = createAsyncThunk(
 
 export const fetchProductsByFilterAsync = createAsyncThunk(
   "product/fetchProductsByFilters",
-  async ({filter,sort}) => {
+  async ({ filter, sort }) => {
     try {
-      const response = await fetchProductsByFilters(filter,sort);
+      const response = await fetchProductsByFilters(filter, sort);
       console.log("Thunk Response:", response);
       return response.data;
     } catch (error) {
@@ -58,9 +63,6 @@ export const fetchBrandsAsync = createAsyncThunk(
     return response.data;
   }
 );
-
-
-
 
 export const productSlice = createSlice({
   name: "product",
@@ -113,6 +115,5 @@ export const { increment } = productSlice.actions;
 export const selectAllProducts = (state) => state.product.products;
 export const selectCategories = (state) => state.product.categories;
 export const selectBrands = (state) => state.product.brands;
-
 
 export default productSlice.reducer;
