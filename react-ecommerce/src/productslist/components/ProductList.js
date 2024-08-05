@@ -6,7 +6,12 @@ import {
   selectAllProducts,
   selectCount,
   fetchProductsByFilterAsync,
+  selectBrands,
+  selectCategories,
+  fetchCategoriesAsync,
+  fetchBrandsAsync,
 } from "../productSlice";
+import { ITEMS_PER_PAGE } from "../../app/constants";
 import {
   Dialog,
   DialogBackdrop,
@@ -39,64 +44,6 @@ const sortOptions = [
   { name: "Price: Low to High", sort: "price", order: "asc", current: false },
   { name: "Price: High to Low", sort: "price", order: "desc", current: false },
 ];
-const filters = [
-  {
-    id: "category",
-    name: "Category",
-    options: [
-      { value: "smartphones", label: "smartphones", checked: false },
-      { value: "laptops", label: "laptops", checked: false },
-      { value: "fragrances", label: "fragrances", checked: false },
-      { value: "skincare", label: "skincare", checked: false },
-      { value: "groceries", label: "groceries", checked: false },
-      { value: "home-decoration", label: "home decoration", checked: false },
-      { value: "furniture", label: "furniture", checked: false },
-      { value: "tops", label: "tops", checked: false },
-      { value: "womens-dresses", label: "womens dresses", checked: false },
-      { value: "womens-shoes", label: "womens shoes", checked: false },
-      { value: "mens-shirts", label: "mens shirts", checked: false },
-      { value: "mens-shoes", label: "mens shoes", checked: false },
-      { value: "mens-watches", label: "mens watches", checked: false },
-      { value: "womens-watches", label: "womens watches", checked: false },
-      { value: "womens-bags", label: "womens bags", checked: false },
-      { value: "womens-jewellery", label: "womens jewellery", checked: false },
-      { value: "sunglasses", label: "sunglasses", checked: false },
-      { value: "automotive", label: "automotive", checked: false },
-      { value: "motorcycle", label: "motorcycle", checked: false },
-      { value: "lighting", label: "lighting", checked: false },
-    ],
-  },
-  {
-    id: "brand",
-    name: "Brands",
-    options: [
-      { value: "Lipstick", label: "Lipstick", checked: false },
-      { value: "Foundation", label: "Foundation", checked: false },
-      { value: "Mascara", label: "Mascara", checked: false },
-      { value: "Eyeliner", label: "Eyeliner", checked: false },
-      { value: "Perfume", label: "Perfume", checked: false },
-      { value: "Skincare", label: "Skincare", checked: false },
-      { value: "Casual Shoes", label: "Casual Shoes", checked: false },
-      { value: "Sports Shoes", label: "Sports Shoes", checked: false },
-      { value: "Running Shoes", label: "Running Shoes", checked: false },
-      { value: "Sneakers", label: "Sneakers", checked: false },
-      { value: "Sandals", label: "Sandals", checked: false },
-      { value: "Flip Flops", label: "Flip Flops", checked: false },
-      { value: "Boots", label: "Boots", checked: false },
-      { value: "Slippers", label: "Slippers", checked: false },
-      { value: "Groceries", label: "Groceries" },
-      { value: "Fruits", label: "Fruits" },
-      { value: "Vegetables", label: "Vegetables" },
-      { value: "Seafood", label: "Seafood" },
-      { value: "Condiments", label: "Condiments" },
-      { value: "Desserts", label: "Desserts" },
-      { value: "Beverages", label: "Beverages" },
-      { value: "Pet Supplies", label: "Pet Supplies" },
-      { value: "Dairy", label: "Dairy" },
-    ],
-  },
-];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -106,41 +53,68 @@ export function ProductList() {
   const [filter, setFilter] = useState({});
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
+  const brands = useSelector(selectBrands);
+  const categeories = useSelector(selectCategories);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [sort,setSort]=useState({});
+  const [sort, setSort] = useState({});
+  const [page, setPage] = useState(1);
+  const filters = [
+    {
+      id: "category",
+      name: "Category",
+      options: categeories,
+    },
+    {
+      id: "brand",
+      name: "Brands",
+      options: brands,
+    },
+  ];
 
   const handleFilter = (e, section, option) => {
     console.log(e.target.checked);
     const newFilter = { ...filter };
-    // TODO:on server it will support multiple categories
+    // TODO:on server it will support multiple categeories
     if (e.target.checked) {
-      if(newFilter[section.id]){
-        newFilter[section.id].push(option.value) ;
-      }else{
-        newFilter[section.id]=[option.value]
+      if (newFilter[section.id]) {
+        newFilter[section.id].push(option.value);
+      } else {
+        newFilter[section.id] = [option.value];
       }
     } else {
-      const index=newFilter[section.id].findIndex(el=>el===option.value)
-      newFilter[section.id].splice(index,1)
+      const index = newFilter[section.id].findIndex(
+        (el) => el === option.value
+      );
+      newFilter[section.id].splice(index, 1);
     }
-    console.log({newFilter})
+    console.log({ newFilter });
     setFilter(newFilter);
   };
 
-  const handleSort = (e,option) => {
-    const newFilter = { ...filter, _sort: option.sort, _order:option.order};
+  useEffect(() => {
+    console.log("Products:", products);
+  }, [products]);
+
+  const handleSort = (e, option) => {
+    const newFilter = { ...filter, _sort: option.sort, _order: option.order };
     setSort(newFilter);
     dispatch(fetchProductsByFilterAsync(newFilter));
   };
-
-  // const handleSort = (option) => {
-  //   const sort={_sort:option.sort,_order:option.order};
-  //   setSort(sort)
-  // };
-
+  const handlePage = (page) => {
+    console.log({ page });
+    setPage(page);
+  };
   useEffect(() => {
-    dispatch(fetchProductsByFilterAsync({filter,sort}));
-  }, [dispatch, filter,sort]);
+    const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
+    dispatch(fetchProductsByFilterAsync({ filter, sort, pagination }));
+  }, [dispatch, filter, sort, page]);
+  useEffect(() => {
+    setPage(1);
+  }, [sort]);
+  useEffect(() => {
+    dispatch(fetchBrandsAsync());
+    dispatch(fetchCategoriesAsync());
+  }, [dispatch]);
 
   return (
     <div>
@@ -151,6 +125,7 @@ export function ProductList() {
             <MobileFilter
               mobileFiltersOpen={mobileFiltersOpen}
               setMobileFiltersOpen={setMobileFiltersOpen}
+              filters={filters}
             ></MobileFilter>
 
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -224,7 +199,10 @@ export function ProductList() {
               >
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                   {/* Filters */}
-                  <DesktopFilter handleFilter={handleFilter}></DesktopFilter>
+                  <DesktopFilter
+                    handleFilter={handleFilter}
+                    filters={filters}
+                  ></DesktopFilter>
 
                   {/* Product grid */}
                   <div className="lg:col-span-3">
@@ -241,17 +219,21 @@ export function ProductList() {
         {/* This is products card part */}
         {/* section of products end here */}
         <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6"></div>
-        <Pagination></Pagination>
+        <Pagination
+          page={page}
+          setPage={setPage}
+          handlePage={handlePage}
+        ></Pagination>
       </div>
     </div>
   );
 }
 
-function DesktopFilter({ handleFilter }) {
+function DesktopFilter({ handleFilter, filters }) {
   return (
     <>
       <form className="hidden lg:block">
-        <h3 className="sr-only">Categories</h3>
+        <h3 className="sr-only">categeories</h3>
 
         {filters.map((section) => (
           <Disclosure
@@ -278,7 +260,10 @@ function DesktopFilter({ handleFilter }) {
                 <DisclosurePanel className="pt-6">
                   <div className="space-y-4">
                     {section.options.map((option, optionIdx) => (
-                      <div key={option.value} className="flex items-center">
+                      <div
+                        key={`filter-${section.id}-${optionIdx}`}
+                        className="flex items-center"
+                      >
                         <input
                           id={`filter-${section.id}-${optionIdx}`}
                           name={`${section.id}[]`}
@@ -311,6 +296,7 @@ function MobileFilter({
   handleFilter,
   mobileFiltersOpen,
   setMobileFiltersOpen,
+  filters,
 }) {
   return (
     <Dialog
@@ -342,7 +328,7 @@ function MobileFilter({
 
           {/* Filters */}
           <form className="mt-4 border-t border-gray-200">
-            <h3 className="sr-only">Categories</h3>
+            <h3 className="sr-only">categeories</h3>
 
             {filters.map((section) => (
               <Disclosure
@@ -399,7 +385,7 @@ function MobileFilter({
   );
 }
 
-function Pagination() {
+function Pagination({ page, setPage, handlePage, totalItems = 55 }) {
   return (
     <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
       <div className="flex flex-1 justify-between sm:hidden">
@@ -419,9 +405,17 @@ function Pagination() {
       <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
         <div>
           <p className="text-sm text-gray-700">
-            Showing <span className="font-medium">1</span> to{" "}
-            <span className="font-medium">10</span> of{" "}
-            <span className="font-medium">97</span> results
+            Showing{" "}
+            <span className="font-medium">
+              {(page - 1) * ITEMS_PER_PAGE + 1}
+            </span>{" "}
+            to{" "}
+            <span className="font-medium">
+              {page * ITEMS_PER_PAGE > totalItems
+                ? totalItems
+                : page * ITEMS_PER_PAGE}
+            </span>{" "}
+            of <span className="font-medium">{totalItems}</span> results
           </p>
         </div>
         <div>
@@ -437,19 +431,21 @@ function Pagination() {
               <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
             </a>
             {/* Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" */}
-            <a
-              href="#"
-              aria-current="page"
-              className="relative z-10 inline-flex items-center bg-indigo-600 px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              1
-            </a>
-            <a
-              href="#"
-              className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
-            >
-              2
-            </a>
+            {Array.from({ length: Math.ceil(totalItems / ITEMS_PER_PAGE) }).map(
+              (el, index) => (
+                <div
+                  onClick={(e) => handlePage(index + 1)}
+                  aria-current="page"
+                  className={`relative cursor-pointer z-10 inline-flex items-center ${
+                    index + 1 === page
+                      ? "bg-indigo-600 text-white"
+                      : "text-gray-400"
+                  } px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
+                >
+                  {index + 1}
+                </div>
+              )
+            )}
             <a
               href="#"
               className="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"

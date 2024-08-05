@@ -1,8 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchAllProducts, fetchProductsByFilters } from "./productApi";
+import { fetchAllProducts, fetchProductsByFilters,fetchBrands,fetchCategories } from "./productApi";
 
 const initialState = {
   products: [],
+  categories:[],
+  brands:[],
   status: "idle",
 };
 export const fetchAllProductsAsync = createAsyncThunk(
@@ -37,6 +39,26 @@ export const fetchProductsByFilterAsync = createAsyncThunk(
   }
 );
 
+// CREATE A THUNKFOR categeories
+export const fetchCategoriesAsync = createAsyncThunk(
+  "product/fetchCategories",
+  async (amount) => {
+    const response = await fetchCategories(amount);
+
+    return response.data;
+  }
+);
+
+// CREATE A THUNK FOR BRANDS
+export const fetchBrandsAsync = createAsyncThunk(
+  "product/fetchBrands",
+  async (amount) => {
+    const response = await fetchBrands(amount);
+
+    return response.data;
+  }
+);
+
 
 
 
@@ -68,6 +90,20 @@ export const productSlice = createSlice({
       .addCase(fetchProductsByFilterAsync.fulfilled, (state, action) => {
         state.status = "idle";
         state.products = action.payload;
+      })
+      .addCase(fetchCategoriesAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchCategoriesAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.categories = [...state.categories, ...action.payload];
+      })
+      .addCase(fetchBrandsAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchBrandsAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.brands = [...state.brands, ...action.payload];
       });
   },
 });
@@ -75,5 +111,8 @@ export const productSlice = createSlice({
 export const { increment } = productSlice.actions;
 
 export const selectAllProducts = (state) => state.product.products;
+export const selectCategories = (state) => state.product.categories;
+export const selectBrands = (state) => state.product.brands;
+
 
 export default productSlice.reducer;

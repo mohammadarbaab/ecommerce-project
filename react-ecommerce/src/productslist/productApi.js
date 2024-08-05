@@ -58,3 +58,22 @@ export function fetchProductsByFilters(filter,sort) {
     }
   });
 }
+
+
+// CREATE API FOR FETCHBRANDS
+export function fetchBrands() {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/brands");
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+// CREATE API FOR FETCHCATEGORIES
+export function fetchCategories() {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/categories");
+    const data = await response.json();
+    resolve({ data });
+  });
+}
