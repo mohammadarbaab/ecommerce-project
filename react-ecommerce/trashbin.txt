@@ -1,4 +1,178 @@
 
+  console.log(params)
+ 
+
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+ 
+
+        ""
+ 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.caretobeauty.com%2Fin%2Fessence-lash-princess-curl-volume-mascara-12ml%2F&psig=AOvVaw0GkI7HgQl-iV2CTImGhIQa&ust=1723133992596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjR8sSk44cDFQAAAAAdAAAAABAE",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png
+ 
+
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+ 
+.alt
+ 
+.src
+ 
+.src
+ 
+
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+ 
+.alt
+ 
+.src
+ 
+{id}
+ 
+/:id
+ 
+
+export const selectProductById=(state)=> state.product.selectedProduct;
+ 
+
+      .addCase(fetchAllProductByIdAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchAllProductByIdAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.selectedProduct = [...state.selectedProduct, ...action.payload];
+ 
+{`/product-detail/${product.id}`} key={product.id}
+ 
+ id
+ 
+{`/product-detail/${product.id}`} key={product.id}
+ 
+params.
+ 
+params
+ 
+fetchAllProductsByIdAsync
+ 
+: null
+ 
+
+                src={product.images[2].src}
+                alt={product.images[2].alt}
+ 
+
+                src={product.images[1].src}
+                alt={product.images[1].alt}
+ 
+brands
+ 
+useDispatch
+ 
+product.sizes && product.
+ 
+product.colors && product.
+ 
+fetchBrandsAsync
+ 
+fetchBrandsAsync
+ 
+fetchAllProductsByIdAsync
+ 
+Products
+ 
+amount = 1
+ 
+AllProducts
+ 
+product.
+ 
+product.
+ 
+
+const product = {
+  name: 'Basic Tee 6-Pack',
+  price: '$192',
+  href: '#',
+  breadcrumbs: [
+    { id: 1, name: 'Men', href: '#' },
+    { id: 2, name: 'Clothing', href: '#' },
+  ],
+  images: [
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
+      alt: 'Model wearing plain black basic tee.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
+      alt: 'Model wearing plain gray basic tee.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+ 
+  description:
+    'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+  highlights: [
+    'Hand cut and sewn locally',
+    'Dyed with our proprietary colors',
+    'Pre-washed & pre-shrunk',
+    'Ultra-soft 100% cotton',
+  ],
+  details:
+    'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+}
+ 
+const product = {
+  name: 'Basic Tee 6-Pack',
+  price: '$192',
+  href: '#',
+  breadcrumbs: [
+    { id: 1, name: 'Men', href: '#' },
+    { id: 2, name: 'Clothing', href: '#' },
+  ],
+  images: [
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
+      alt: 'Model wearing plain black basic tee.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
+      alt: 'Model wearing plain gray basic tee.',
+    },
+    {
+      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+ 
+reviews
+ 
+
+                </a>
+ 
+
+                <a href={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                  {reviews.totalCount}
+ 
+reviews.average
+ 
+.reviewsaverage
+ 
+product.name
+ 
+name
+ 
+
           href="#"
  
 

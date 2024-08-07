@@ -53,7 +53,10 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://static.beautytocare.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//e/s/essence-lash-princess-curl-volume-mascara-12ml.jpg",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://m.media-amazon.com/images/I/61zzMdJ-bDL._SX569_.jpg"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
@@ -110,6 +113,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
@@ -167,6 +172,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
@@ -224,6 +231,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
@@ -281,6 +290,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
