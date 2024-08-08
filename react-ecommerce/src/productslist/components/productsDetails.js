@@ -41,6 +41,12 @@ const sizes = [
   { name: "2XL", inStock: true },
   { name: "3XL", inStock: true },
 ];
+const highlights = [
+  "Hand cut and sewn locally",
+  "Dyed with our proprietary colors",
+  "Pre-washed & pre-shrunk",
+  "Ultra-soft 100% cotton",
+];
 
 const reviews = { href: "#", average: 4, totalCount: 117 };
 
@@ -68,8 +74,6 @@ export default function ProductsDetails() {
   // if (!product) {
   //   return <div>Loading...</div>; // Handle loading state
   // }
-
-
 
   return (
     <div className="bg-white">
@@ -328,12 +332,11 @@ export default function ProductsDetails() {
 
                 <div className="mt-4">
                   <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
-                    {product.highlights &&
-                      product.highlights.map((highlight) => (
-                        <li key={highlight} className="text-gray-400">
-                          <span className="text-gray-600">{highlight}</span>
-                        </li>
-                      ))}
+                    {highlights.map((highlight) => (
+                      <li key={highlight} className="text-gray-400">
+                        <span className="text-gray-600">{highlight}</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>

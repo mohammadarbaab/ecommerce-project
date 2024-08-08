@@ -44,6 +44,7 @@ const sortOptions = [
   { name: "Price: Low to High", sort: "price", order: "asc", current: false },
   { name: "Price: High to Low", sort: "price", order: "desc", current: false },
 ];
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -469,8 +470,8 @@ function ProductGrid({ products }) {
         <h2 className="sr-only">Products</h2>
 
         <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          {products.map((product,id) => (
-            <Link to={`product-detail/${product.id}`}  key={id}>
+          {products.map((product, id) => (
+            <Link to={`product-detail/${product.id}`} key={id}>
               <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
                 <div className="flex-grow overflow-hidden ">
                   <img
