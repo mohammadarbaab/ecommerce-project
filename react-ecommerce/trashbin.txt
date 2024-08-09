@@ -1,3 +1,86 @@
+createAsyncThunk
+ 
+createAsyncThunk
+ 
+createAsyncThunk
+ 
+ increment, incrementAsync 
+ 
+fetchCount
+ 
+
+import authReducer from '../'
+ 
+
+import authRe
+ 
+
+import authRed from '../features/auth/authSlice';
+ 
+authReducer
+ 
+authSlice
+ 
+authSlice
+ 
+authSlice
+ 
+Slice
+ 
+incrementAsync
+ 
+value
+ 
+counter
+ 
+amount
+ 
+value
+ 
+fetchCount
+ 
+amount = 1
+ 
+fetchCount
+ 
+email is not valid
+ 
+ /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/gi
+ 
+/^[A-Za-z]+$/i
+ 
+.confirmPassword
+ 
+confirmPassword
+ 
+confirmPassword
+ 
+
+                <p className="text-red-500">{errors.password.message}</p>
+ 
+email
+ 
+
+                  required
+ 
+
+                  autoComplete="current-password"
+                  required
+ 
+
+                  required
+ 
+ action="#"
+ 
+
+                  name="password"
+ 
+
+                  name="confirm-password"
+ 
+
+                  name="email"
+ 
 product.
  
 product.highlights &&
