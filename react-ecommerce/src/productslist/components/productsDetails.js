@@ -56,12 +56,10 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-
-
 export default function ProductsDetails() {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
   const [selectedSize, setSelectedSize] = useState(sizes[2]);
-  const user=useSelector(selectLoggedInUser)
+  const user = useSelector(selectLoggedInUser);
   const product = useSelector(selectProductById);
   const dispatch = useDispatch();
   const params = useParams();
@@ -79,10 +77,12 @@ export default function ProductsDetails() {
   // if (!product) {
   //   return <div>Loading...</div>; // Handle loading state
   // }
-  const handleCart=(e)=>{
+  const handleCart = (e) => {
     e.preventDefault();
-  dispatch(addToCartAsync({...product,quantity:1,user:user.id}));
-  }
+    const newItem={ ...product, quantity: 1, user: user.id }
+    delete newItem ['id']
+    dispatch(addToCartAsync(newItem));
+  };
 
   return (
     <div className="bg-white">
@@ -314,7 +314,7 @@ export default function ProductsDetails() {
                 </div>
 
                 <button
-                onClick={handleCart}
+                  onClick={handleCart}
                   type="submit"
                   className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
