@@ -1,3 +1,144 @@
+
+      body: JSON.stringify(update),
+ 
+ = action.payload;
+ 
+updateCartAsync
+ 
+updateCartAsync
+ 
+updateCart
+ 
+update
+ 
+updateCart
+ 
+updateCartAsync
+ 
+PATCH
+ 
+pdate.id
+ 
+updateCart
+ 
+
+const products = [
+  {
+    id: 1,
+    name: "Throwback Hip Bag",
+    href: "#",
+    color: "Salmon",
+    price: "$90.00",
+    quantity: 1,
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
+    imageAlt:
+      "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
+  },
+  {
+    id: 2,
+    name: "Medium Stuff Satchel",
+    href: "#",
+    color: "Blue",
+    price: "$32.00",
+    quantity: 1,
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
+    imageAlt:
+      "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
+  },
+  // More products...
+];
+
+ 
+ increment, incrementAsync, 
+ 
+updateItemAsync
+ 
+updateItemAsync
+ 
+const
+ 
+product
+ 
+fetchItemsByUserIdAsync
+ 
+fetchItemsByUserIdAsync
+ 
+item
+ 
+addTo
+ 
+addToCart
+ 
+addToCartAsync
+ 
+item
+ 
+addToCar
+ 
+$262.00
+ 
+products
+ 
+name
+ 
+imageSrc
+ 
+0
+ 
+0
+ 
+
+  value: 0,
+ 
+products
+ 
+.push
+ 
+addToCartAsync
+ 
+ddToCart
+ 
+addToCartAsync
+ 
++id
+ 
+ProductById
+ 
+addToCart
+ 
+ += 
+ 
+incrementAsync
+ 
+counter
+ 
+amount
+ 
+incrementAsync
+ 
+fetchCount
+ 
+fetchCount 
+ 
+users
+ 
+userData
+ 
+// A mock function to mimic making an async request for data
+export function fetchCount(amount = 1) {
+  return new Promise(async (resolve) =>
+  {
+    const response=await fetch("http://localhost:8080")
+    const data=await response.json()
+    resolve({data})
+  }
+  );
+  
+}
+
+ 
 "#
  
 href
