@@ -14,7 +14,10 @@ import {
   selectLoggedInUser,
   updateUserAsync,
 } from "../features/auth/authSlice";
-import { createOrderAsync } from "../features/order/orderSlice";
+import {
+  createOrderAsync,
+  selectCurrentOrder,
+} from "../features/order/orderSlice";
 
 const products = [
   {
@@ -50,6 +53,8 @@ function CheckoutPage() {
   const items = useSelector(selectItems);
   const [selectedAddress, setSelectedAddress] = useState(null);
   const [paymentMethod, setPaymentMethod] = useState("cash");
+  const currentOrder = useSelector(selectCurrentOrder);
+
   const totalAmount = items.reduce(
     (amount, item) => item.price * item.quantity + amount,
     0
@@ -62,21 +67,34 @@ function CheckoutPage() {
   const handleRemove = (e, id) => {
     dispatch(deleteItemFromCartAsync(id));
   };
-  const handleAddress=(e)=>{
-    console.log(e.target.value )
-    setSelectedAddress(user.addresses[e.target.value])
-  }
-  const handlePayment=(e)=>{
+  const handleAddress = (e) => {
     console.log(e.target.value);
-    setPaymentMethod(e.target.value )
-  }
-  const handleOrder=(e)=>{
-    const order={items,totalAmount,totalItems,user,paymentMethod,selectedAddress}
-    dispatch(createOrderAsync(order)) 
+    setSelectedAddress(user.addresses[e.target.value]);
+  };
+  const handlePayment = (e) => {
+    console.log(e.target.value);
+    setPaymentMethod(e.target.value);
+  };
+  const handleOrder = (e) => {
+    const order = {
+      items,
+      totalAmount,
+      totalItems,
+      user,
+      paymentMethod,
+      selectedAddress,
+      status: "pending",
+    };
+    if (!selectedAddress) {
+      alert("Please fill and submit your address first!");
+      return;
+    }
+    dispatch(createOrderAsync(order));
     //TODO:REDIRECT ORDER-SUCCESS-PAGE
     // CLEAR CART AFTER ORDER
     // ON SERVER CHANGE THE STOCK NUMBER OF ITEMS
-  }
+  };
+
   const user = useSelector(selectLoggedInUser);
 
   const {
@@ -89,6 +107,12 @@ function CheckoutPage() {
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
+      {currentOrder && (
+        <Navigate
+          to={`/order-success/${currentOrder.id}`}
+          replace={true}
+        ></Navigate>
+      )}
       <div className="msx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
@@ -103,6 +127,7 @@ function CheckoutPage() {
                     addresses: [...user.addresses, data],
                   })
                 );
+                setSelectedAddress(data); // Set the selected address after submission
                 reset();
                 console.log(data);
               })}
@@ -272,14 +297,14 @@ function CheckoutPage() {
                   Choose from Existing address
                 </p>
                 <ul role="list">
-                  {user.addresses.map((address,index) => (
+                  {user.addresses.map((address, index) => (
                     <li
                       key={index}
                       className="flex justify-between gap-x-6 px-5 py-5 border-solid border-2 border-gray-200"
                     >
                       <div className="flex min-w-0 gap-x-4">
                         <input
-                        onChange={handleAddress}
+                          onChange={handleAddress}
                           id="push-email"
                           name="address"
                           value={index}
@@ -327,7 +352,7 @@ function CheckoutPage() {
                           name="payments"
                           onChange={handlePayment}
                           value="cash"
-                          checked={paymentMethod === 'cash'}
+                          checked={paymentMethod === "cash"}
                           type="radio"
                           className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                         />
@@ -441,7 +466,7 @@ function CheckoutPage() {
                 </p>
                 <div className="mt-6">
                   <div
-                  onClick={handleOrder}
+                    onClick={handleOrder}
                     className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                   >
                     Order Now

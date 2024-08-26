@@ -23,7 +23,6 @@ export const checkUserAsync = createAsyncThunk(
   }
 );
 
-
 export const updateUserAsync = createAsyncThunk(
   "user/updateUser",
   async (update) => {
