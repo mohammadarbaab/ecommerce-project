@@ -2098,10 +2098,10 @@
   "cart": [],
   "orders": [
     {
-      "id": "1040",
+      "id": "7945",
       "items": [
         {
-          "id": "fd03",
+          "id": "9231",
           "title": "Powder Canister",
           "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
           "category": "beauty",
@@ -2196,172 +2196,74 @@
       "status": "pending"
     },
     {
-      "id": "de24",
+      "id": "d5a8",
       "items": [
         {
-          "id": "930b",
-          "title": "Powder Canister",
-          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-          "category": "beauty",
-          "price": 14.99,
-          "discountPercentage": 18.14,
-          "rating": 3.82,
-          "stock": 59,
-          "tags": [
-            "beauty",
-            "face powder"
-          ],
-          "brand": "Velvet Touch",
-          "sku": "9EN8WLT2",
-          "weight": 8,
-          "dimensions": {
-            "width": 24.16,
-            "height": 10.7,
-            "depth": 11.07
-          },
-          "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Ethan Thompson",
-              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Hazel Gardner",
-              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 25,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "0516267971277",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-          "quantity": 1,
-          "user": "7d21"
-        }
-      ],
-      "totalAmount": 14.99,
-      "totalItems": 1,
-      "user": {
-        "id": "7d21",
-        "email": "demo@gmail.com",
-        "password": "Demo@321",
-        "addresses": [
-          {
-            "name": "demo",
-            "email": "demo@gmail.com",
-            "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121212"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "demo",
-        "email": "demo@gmail.com",
-        "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121212"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "8979",
-      "items": [
-        {
-          "id": "ae7c",
-          "title": "Calvin Klein CK One",
-          "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+          "id": "804e",
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
           "category": "fragrances",
-          "price": 49.99,
-          "discountPercentage": 0.32,
-          "rating": 4.85,
-          "stock": 17,
+          "price": 129.99,
+          "discountPercentage": 18.64,
+          "rating": 2.76,
+          "stock": 41,
           "tags": [
             "fragrances",
             "perfumes"
           ],
-          "brand": "Calvin Klein",
-          "sku": "DZM2JQZE",
-          "weight": 5,
+          "brand": "Chanel",
+          "sku": "K71HBCGS",
+          "weight": 4,
           "dimensions": {
-            "width": 11.53,
-            "height": 14.44,
-            "depth": 6.81
+            "width": 21.27,
+            "height": 28,
+            "depth": 11.89
           },
-          "warrantyInformation": "5 year warranty",
-          "shippingInformation": "Ships overnight",
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 1 month",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 5,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Sophia Brown",
-              "reviewerEmail": "sophia.brown@x.dummyjson.com"
-            },
-            {
-              "rating": 3,
-              "comment": "Very disappointed!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Madison Collins",
-              "reviewerEmail": "madison.collins@x.dummyjson.com"
-            },
-            {
               "rating": 1,
-              "comment": "Poor quality!",
+              "comment": "Disappointing product!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Maya Reed",
-              "reviewerEmail": "maya.reed@x.dummyjson.com"
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Lucas Allen",
+              "reviewerEmail": "lucas.allen@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "No return policy",
-          "minimumOrderQuantity": 20,
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 5,
           "meta": {
             "createdAt": "2024-05-23T08:56:21.619Z",
             "updatedAt": "2024-05-23T08:56:21.619Z",
-            "barcode": "2210136215089",
+            "barcode": "1435582999795",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/1.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/2.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/3.png"
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
           "quantity": 1,
           "user": "7d21"
         }
       ],
-      "totalAmount": 49.99,
+      "totalAmount": 129.99,
       "totalItems": 1,
       "user": {
         "id": "7d21",
@@ -2392,53 +2294,53 @@
       "status": "pending"
     },
     {
-      "id": "16a7",
+      "id": "04aa",
       "items": [
         {
-          "id": "0497",
-          "title": "Annibale Colombo Sofa",
-          "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+          "id": "2ad3",
+          "title": "Annibale Colombo Bed",
+          "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
           "category": "furniture",
-          "price": 2499.99,
-          "discountPercentage": 18.54,
-          "rating": 3.08,
-          "stock": 16,
+          "price": 1899.99,
+          "discountPercentage": 0.29,
+          "rating": 4.14,
+          "stock": 47,
           "tags": [
             "furniture",
-            "sofas"
+            "beds"
           ],
           "brand": "Annibale Colombo",
-          "sku": "LUU95CQP",
+          "sku": "4KMDTZWF",
           "weight": 3,
           "dimensions": {
-            "width": 20.97,
-            "height": 19.11,
-            "depth": 25.81
+            "width": 28.75,
+            "height": 26.88,
+            "depth": 24.47
           },
-          "warrantyInformation": "1 month warranty",
+          "warrantyInformation": "2 year warranty",
           "shippingInformation": "Ships overnight",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 5,
-              "comment": "Very satisfied!",
+              "rating": 4,
+              "comment": "Great value for money!",
               "date": "2024-05-23T08:56:21.620Z",
-              "reviewerName": "Tyler Davis",
-              "reviewerEmail": "tyler.davis@x.dummyjson.com"
+              "reviewerName": "Julian Newton",
+              "reviewerEmail": "julian.newton@x.dummyjson.com"
             },
             {
               "rating": 5,
-              "comment": "Excellent quality!",
-              "date": "2024-05-23T08:56:21.620Z",
-              "reviewerName": "Hannah Robinson",
-              "reviewerEmail": "hannah.robinson@x.dummyjson.com"
-            },
-            {
-              "rating": 3,
-              "comment": "Waste of money!",
+              "comment": "Would buy again!",
               "date": "2024-05-23T08:56:21.620Z",
               "reviewerName": "Madison Collins",
               "reviewerEmail": "madison.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
             }
           ],
           "returnPolicy": "7 days return policy",
@@ -2446,20 +2348,20 @@
           "meta": {
             "createdAt": "2024-05-23T08:56:21.620Z",
             "updatedAt": "2024-05-23T08:56:21.620Z",
-            "barcode": "0426785817074",
+            "barcode": "7113807059215",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
           "quantity": 1,
           "user": "7d21"
         }
       ],
-      "totalAmount": 2499.99,
+      "totalAmount": 1899.99,
       "totalItems": 1,
       "user": {
         "id": "7d21",

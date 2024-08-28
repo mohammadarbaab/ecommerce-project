@@ -1,5 +1,3454 @@
 
     {
+      "id": "fb34",
+      "items": [
+        {
+          "id": "ce81",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "5d94",
+      "items": [
+        {
+          "id": "ba6d",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "0492",
+      "items": [
+        {
+          "id": "e4b8",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "40b9",
+      "items": [
+        {
+          "id": "9d1a",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    }
+ 
+Array.isArray(orders) &&
+ 
+
+    {
+      "id": "dd8d",
+      "items": [
+        {
+          "id": "2488",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "d522",
+      "items": [
+        {
+          "id": "0021",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    }
+ 
+ {
+      "id": "9199",
+      "items": [
+        {
+          "id": "aae1",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "6748",
+      "items": [
+        {
+          "id": "0c58",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "595f",
+      "items": [
+        {
+          "id": "3a6b",
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+          "category": "fragrances",
+          "price": 129.99,
+          "discountPercentage": 18.64,
+          "rating": 2.76,
+          "stock": 41,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Chanel",
+          "sku": "K71HBCGS",
+          "weight": 4,
+          "dimensions": {
+            "width": 21.27,
+            "height": 28,
+            "depth": 11.89
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 1,
+              "comment": "Disappointing product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Lucas Allen",
+              "reviewerEmail": "lucas.allen@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 5,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "1435582999795",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 129.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+orders.map
+ 
+
+    {
+      "id": "9640",
+      "items": [
+        {
+          "id": "36b8",
+          "title": "Gucci Bloom Eau de",
+          "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+          "category": "fragrances",
+          "price": 79.99,
+          "discountPercentage": 8.9,
+          "rating": 2.69,
+          "stock": 93,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Gucci",
+          "sku": "FFKZ6HOF",
+          "weight": 10,
+          "dimensions": {
+            "width": 22.28,
+            "height": 17.81,
+            "depth": 27.18
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Aria Parker",
+              "reviewerEmail": "aria.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Natalie Harris",
+              "reviewerEmail": "natalie.harris@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Ava Harris",
+              "reviewerEmail": "ava.harris@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 10,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "8232190382069",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 79.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "7c00",
+      "items": [
+        {
+          "id": "cab4",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 12.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "dacc",
+      "items": [
+        {
+          "id": "430e",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    }
+ 
+
+    {
+      "id": "24c9",
+      "title": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+      "category": "beauty",
+      "price": 12.99,
+      "discountPercentage": 19.03,
+      "rating": 2.51,
+      "stock": 68,
+      "tags": [
+        "beauty",
+        "lipstick"
+      ],
+      "brand": "Chic Cosmetics",
+      "sku": "O5IF1NTA",
+      "weight": 5,
+      "dimensions": {
+        "width": 14.37,
+        "height": 13.94,
+        "depth": 14.6
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Oscar Powers",
+          "reviewerEmail": "oscar.powers@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Carter Rivera",
+          "reviewerEmail": "carter.rivera@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 6,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.619Z",
+        "updatedAt": "2024-05-23T08:56:21.619Z",
+        "barcode": "9444582199406",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+      "quantity": 1,
+      "user": "e021"
+    }
+ 
+
+    {
+      "id": "6d7a",
+      "items": [
+        {
+          "id": "a87e",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "929e",
+      "items": [
+        {
+          "id": "5488",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 12.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "12bc",
+      "items": [
+        {
+          "id": "2f5c",
+          "title": "Dior J'adore",
+          "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+          "category": "fragrances",
+          "price": 89.99,
+          "discountPercentage": 17.44,
+          "rating": 3.31,
+          "stock": 91,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dior",
+          "sku": "E70NB03B",
+          "weight": 10,
+          "dimensions": {
+            "width": 21.51,
+            "height": 7,
+            "depth": 26.51
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Zoe Nicholson",
+              "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Addison Wright",
+              "reviewerEmail": "addison.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 8,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "0887083199279",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 89.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+
+import React from 'react'
+import Navbar from '../features/navbar/Navbar'
+function ProductDetailPage() {
+  return (
+    <div>
+    <Navbar>
+        <ProductsDetails />
+    </Navbar>
+    </div>
+  )
+}
+
+export default ProductDetailPage
+
+ 
+
+import ProductsDetails from '../productslist/components/productsDetails'
+import UserOrders from '../features/user/components/UserOrder';
+ 
+ProductsDetails
+ 
+
+    <div>
+      
+    </div>
+ 
+
+              Shipping and taxes calculated at checkout.
+ 
+
+                <input
+                //   onChange={handleAddress}
+                  id="push-email"
+                  name="address"
+                  value={index}
+                  type="radio"
+                  className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                />
+ 
+
+                <img
+                  className="h-12 w-12 flex-none rounded-full bg-gray-50"
+                  src={order.selectedAddress.imageUrl}
+                  alt=""
+                />
+ 
+address
+ 
+gray
+ 
+ Number is 
+ 
+Item in this Order
+ 
+
+            <div className="mt-6">
+              <Link
+                to="/checkout"
+                className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+              >
+                Checkout
+              </Link>
+            </div>
+            <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
+              <p>
+                or{" "}
+                <Link to="/">
+                  <button
+                    type="button"
+                    className="font-medium text-indigo-600 hover:text-indigo-500"
+                    onClick={() => setOpen(false)}
+                  >
+                    Continue Shopping
+                    <span aria-hidden="true"> &rarr;</span>
+                  </button>
+                </Link>
+              </p>
+            </div>
+ 
+
+                          <button
+                            onClick={(e) => handleRemove(e, item.id)}
+                            type="button"
+                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                          >
+                            Remove
+                          </button>
+ 
+
+                          <select
+                            onChange={(e) => handleQuantity(e, item)}
+                            value
+                          >
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                          </select>
+ 
+
+                          <select
+                            onChange={(e) => handleQuantity(e, item)}
+                            value={item.quantity}
+                          >
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                          </select>
+ 
+Cart
+ 
+
+            <h1 className="p-24 text-xl">{order.id}</h1>
+ 
+
+    {
+      "id": "57b8",
+      "items": [
+        {
+          "id": "2c75",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        },
+        {
+          "id": "223b",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 27.98,
+      "totalItems": 2,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+
+      `http://localhost:8080/users/orders/?id=${userId}`
+ 
+`http://localhost:8080/users/orders/?id=${userId}`
+ 
+"http://localhost:8080/users/orders/?user.id=" + userId
+ 
+"http://localhost:8080/users/orders/?user.id=" + userId
+ 
+"http://localhost:8080/users/orders/?user.id=" + userId
+ 
+
+    {
+      "id": "dbf0",
+      "items": [
+        {
+          "id": "9667",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 12.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+fetchLoggedInUser
+ 
+
+    {
+      "id": "1040",
+      "items": [
+        {
+          "id": "fd03",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "de24",
+      "items": [
+        {
+          "id": "930b",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "8979",
+      "items": [
+        {
+          "id": "ae7c",
+          "title": "Calvin Klein CK One",
+          "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+          "category": "fragrances",
+          "price": 49.99,
+          "discountPercentage": 0.32,
+          "rating": 4.85,
+          "stock": 17,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Calvin Klein",
+          "sku": "DZM2JQZE",
+          "weight": 5,
+          "dimensions": {
+            "width": 11.53,
+            "height": 14.44,
+            "depth": 6.81
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Maya Reed",
+              "reviewerEmail": "maya.reed@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "2210136215089",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 49.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "16a7",
+      "items": [
+        {
+          "id": "0497",
+          "title": "Annibale Colombo Sofa",
+          "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+          "category": "furniture",
+          "price": 2499.99,
+          "discountPercentage": 18.54,
+          "rating": 3.08,
+          "stock": 16,
+          "tags": [
+            "furniture",
+            "sofas"
+          ],
+          "brand": "Annibale Colombo",
+          "sku": "LUU95CQP",
+          "weight": 3,
+          "dimensions": {
+            "width": 20.97,
+            "height": 19.11,
+            "depth": 25.81
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Tyler Davis",
+              "reviewerEmail": "tyler.davis@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Hannah Robinson",
+              "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "0426785817074",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 2499.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "5f35",
+      "items": [
+        {
+          "id": "f4dc",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "52bb",
+      "items": [
+        {
+          "id": "3183",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "65a2",
+      "items": [
+        {
+          "id": "e621",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+
+
+  if (status === 'loading') {
+    return <p>Loading...</p>;
+  }
+
+  if (status === 'failed') {
+    return <p>Error loading orders</p>;
+  }
+ 
+
+  useEffect(()=>{
+    dispatch(fetchLoggedInUserOrdersAsync(user.id))
+  },[dispatch, user])
+ 
+"http://localhost:8080/users/orders/?user.id=" + userId
+ 
+
+  orders:0,
+ 
+
+    {
+      "id": "1040",
+      "items": [
+        {
+          "id": "fd03",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": ["beauty", "face powder"],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "de24",
+      "items": [
+        {
+          "id": "930b",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": ["beauty", "face powder"],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "8979",
+      "items": [
+        {
+          "id": "ae7c",
+          "title": "Calvin Klein CK One",
+          "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+          "category": "fragrances",
+          "price": 49.99,
+          "discountPercentage": 0.32,
+          "rating": 4.85,
+          "stock": 17,
+          "tags": ["fragrances", "perfumes"],
+          "brand": "Calvin Klein",
+          "sku": "DZM2JQZE",
+          "weight": 5,
+          "dimensions": {
+            "width": 11.53,
+            "height": 14.44,
+            "depth": 6.81
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Maya Reed",
+              "reviewerEmail": "maya.reed@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "2210136215089",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 49.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "16a7",
+      "items": [
+        {
+          "id": "0497",
+          "title": "Annibale Colombo Sofa",
+          "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+          "category": "furniture",
+          "price": 2499.99,
+          "discountPercentage": 18.54,
+          "rating": 3.08,
+          "stock": 16,
+          "tags": ["furniture", "sofas"],
+          "brand": "Annibale Colombo",
+          "sku": "LUU95CQP",
+          "weight": 3,
+          "dimensions": {
+            "width": 20.97,
+            "height": 19.11,
+            "depth": 25.81
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Tyler Davis",
+              "reviewerEmail": "tyler.davis@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Hannah Robinson",
+              "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "0426785817074",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+          "quantity": 1,
+          "user": "7d21"
+        }
+      ],
+      "totalAmount": 2499.99,
+      "totalItems": 1,
+      "user": {
+        "id": "7d21",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
+        "addresses": [
+          {
+            "name": "demo",
+            "email": "demo@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121212"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "demo",
+        "email": "demo@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121212"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "5f35",
+      "items": [
+        {
+          "id": "f4dc",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": ["beauty", "eyeshadow"],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "e021"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "e021",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
+        "addresses": [
+          {
+            "name": "Sufiya",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "23432"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Sufiya",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "23432"
+      },
+      "status": "pending"
+    }
+ 
+OrderSuccessPage
+ 
+order-success/:id
+ 
+item
+ 
+Info
+ 
+
+  fetchLoggedInUser,
+ 
+
+  const count=useSelector()
+ 
+
+import React from 'react'
+ 
+import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { Navigate } from "react-router-dom";
+import {
+  deleteItemFromCartAsync,
+  selectItems,
+  updateCartAsync,
+} from "./userSlice";
+
+import {
+  Dialog,
+  DialogBackdrop,
+  DialogPanel,
+  DialogTitle,
+} from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
+
+export function Cart() {
+  //   const count = useSelector(selectCount);
+  const dispatch = useDispatch();
+  const [open, setOpen] = useState(true);
+  const items = useSelector(selectItems);
+  const totalAmount = items.reduce(
+    (amount, item) => item.price * item.quantity + amount,
+    0
+  );
+  const totalItems = items.reduce((total, item) => item.quantity + total, 0);
+
+  const handleQuantity = (e, item) => {
+    dispatch(updateCartAsync({ ...item, quantity: +e.target.value }));
+  };
+  const handleRemove = (e, id) => {
+    dispatch(deleteItemFromCartAsync(id));
+  };
+
+
+  return (
+   <>
+     {!items.length  && <Navigate to="/" replace={true}></Navigate>}
+    <div className="mx-auto mt-12 bg-white max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 my-5">
+          Cart
+        </h1>
+        <div className="flow-root">
+          <ul role="list" className="-my-6 divide-y divide-gray-200">
+            {items.map((item) => (
+              <li key={item.id} className="flex py-6">
+                <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                  <img
+                    src={item.thumbnail}
+                    alt={item.title}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div className="ml-4 flex flex-1 flex-col">
+                  <div>
+                    <div className="flex justify-between text-base font-medium text-gray-900">
+                      <h3>
+                        <a href={item.href}>{item.title}</a>
+                      </h3>
+                      <p className="ml-4">${item.price}</p>
+                    </div>
+                    <p className="mt-1 text-sm text-gray-500">{item.brand}</p>
+                  </div>
+                  <div className="flex flex-1 items-end justify-between text-sm">
+                    <div className="text-gray-500">
+                      <label
+                        htmlFor="quentity"
+                        className="inline mr-5  text-sm font-medium leading-6 text-gray-900"
+                      >
+                        Qty
+                      </label>
+                      <select
+                        onChange={(e) => handleQuantity(e, item)}
+                        value={item.quantity}
+                      >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                    </div>
+
+                    <div className="flex">
+                      <button
+                        onClick={(e) => handleRemove(e, item.id)}
+                        type="button"
+                        className="font-medium text-indigo-600 hover:text-indigo-500"
+                      >
+                        Remove
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
+        <div className="flex justify-between my-2 text-base font-medium text-gray-900">
+          <p>Subtotal</p>
+          <p>${totalAmount}</p>
+        </div>
+        <div className="flex justify-between my-2 text-base font-medium text-gray-900">
+          <p>Total items in Cart</p>
+          <p>{totalItems} items</p>
+        </div>
+        <p className="mt-0.5 text-sm text-gray-500">
+          Shipping and taxes calculated at checkout.
+        </p>
+        <div className="mt-6">
+          <Link
+            to="/checkout"
+            className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+          >
+            Checkout
+          </Link>
+        </div>
+        <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
+          <p>
+            or{" "}
+            <Link to="/">
+              <button
+                type="button"
+                className="font-medium text-indigo-600 hover:text-indigo-500"
+                onClick={() => setOpen(false)}
+              >
+                Continue Shopping
+                <span aria-hidden="true"> &rarr;</span>
+              </button>
+            </Link>
+          </p>
+        </div>
+      </div>
+    </div>
+   </>
+  );
+}
+
+ 
+
+  resetCart,
+  updateCart,
+ 
+
+  addToCart,
+  deleteItemFromCart,
+  fetchItemsByUserId,
+ 
+
+
+export const selectItems = (state) => state.cart.items;
+ 
+
+        state.items.push(action.payload);
+ 
+addToCartAsync
+ 
+
+      .addCase(fetchItemsByUserIdAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchItemsByUserIdAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.items = action.payload;
+      })
+      .addCase(updateCartAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(updateCartAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        const index=state.items.findIndex(item=>item.id===action.payload.id)
+        state.items[index] = action.payload;
+      })
+      .addCase(deleteItemFromCartAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(deleteItemFromCartAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        const index=state.items.findIndex(item=>item.id===action.payload.id)
+        state.items.splice(index,1);
+      })
+      .addCase(resetCartAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(resetCartAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.items=[];
+      });
+ 
+counterSlice
+ 
+
+export const fetchItemsByUserIdAsync = createAsyncThunk(
+  "cart/fetchItemsByUserId",
+  async (userId) => {
+    const response = await fetchItemsByUserId(userId);
+
+    return response.data;
+  }
+);
+
+ 
+
+export const resetCartAsync = createAsyncThunk(
+  "cart/resetCart",
+  async (userId) => {
+    const response = await resetCart(userId);
+
+    return response.data;
+  }
+);
+ 
+
+  items: [],
+ 
+addToCartAsync
+ 
+addToCart
+ 
+addToCart
+ 
+
+
+export const updateCartAsync = createAsyncThunk(
+  "cart/updateCart",
+  async (update) => {
+    const response = await updateCart(update);
+
+    return response.data;
+  }
+);
+export const deleteItemFromCartAsync = createAsyncThunk(
+  "cart/deleteItem",
+  async (itemId) => {
+    const response = await deleteItemFromCart(itemId);
+
+    return response.data;
+  }
+);
+ 
+export function addToCart(item) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/cart", {
+      method: "POST",
+      body: JSON.stringify(item),
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+export function fetchItemsByUserId(userId) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/cart?user=" + userId);
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+export function updateCart(update) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/cart/" + update.id, {
+      method: "PATCH",
+      body: JSON.stringify(update),
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+// error code
+export  function deleteItemFromCart(itemId) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/cart/" + itemId, {
+      method: "DELETE",
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data: { id: itemId } });
+  });
+}
+
+export function resetCart(userId) {
+  //  get all items of users cart and then delete each
+  return new Promise(async (resolve) => {
+    const response = await fetchItemsByUserId(userId);
+    const items = response.data;
+    for (let item of items) {
+      await deleteItemFromCart(item.id);
+    }
+    resolve({ status: "success" });
+  });
+}
+
+ 
+href
+ 
+
+    {
       "id": "8e0b",
       "items": [
         {
