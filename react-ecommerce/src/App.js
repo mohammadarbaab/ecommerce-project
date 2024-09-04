@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 import { Login } from "./features/auth/components/Login";
 import { Signup } from "./features/auth/components/Signup";
+import { fetchLoggedInUserAsync } from "./features/user/userSlice";
 
 import { createRoot } from "react-dom/client";
 import {
@@ -28,6 +29,9 @@ import PageNotFound from "./pages/404";
 import OrderSuccessPage from "./pages/OrderSuccessPage";
 import UserOrders from "./features/user/components/UserOrder";
 import UserOrderPage from "./pages/UserOrderPage";
+import UserProfile from "./features/user/components/UserProfile";
+import UserProfilePage from "./pages/UserProfilePage";
+import {} from "./features/user/userSlice";
 
 const router = createBrowserRouter([
   {
@@ -71,24 +75,24 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path:'/order-success/:id',
-    element: (
-      <OrderSuccessPage></OrderSuccessPage>
-    )
+    path: "/order-success/:id",
+    element: <OrderSuccessPage></OrderSuccessPage>,
   },
   {
-    path:'/orders',
+    path: "/orders",
     element: (
       <UserOrderPage></UserOrderPage>
-      // we will add page later right now use 
-    )
+      // we will add page later right now use
+    ),
   },
   {
-    path:'*',
-    element:(
-      <PageNotFound></PageNotFound>
-    )
-  }
+    path: "/profile",
+    element: <UserProfile></UserProfile>,
+  },
+  {
+    path: "*",
+    element: <PageNotFound></PageNotFound>,
+  },
 ]);
 
 function App() {
@@ -97,8 +101,9 @@ function App() {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
+      dispatch(fetchLoggedInUserAsync(user.id));
     }
-  }, [dispatch,user]);
+  }, [dispatch, user]);
   return (
     <div className="App">
       <RouterProvider router={router} />

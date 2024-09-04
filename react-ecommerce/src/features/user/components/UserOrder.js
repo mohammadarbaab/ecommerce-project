@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { selectUserInfo } from "../userSlice";
 
 import React from "react";
-import { selectLoggedInUser } from "../../auth/authSlice";
 import { fetchLoggedInUserOrdersAsync, selectUserOrders } from "../userSlice";
 
 function UserOrders() {
   const dispatch = useDispatch();
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
   const orders = useSelector(selectUserOrders);
-  const filteredOrders = orders.filter(order => order.user.id === user.id);
+  const filteredOrders = orders.filter((order) => order.user.id === user.id);
   useEffect(() => {
     if (user && user.id) {
       dispatch(fetchLoggedInUserOrdersAsync(user.id));
@@ -21,7 +21,7 @@ function UserOrders() {
   }
   return (
     <div>
-      {filteredOrders.map((order,index) => (
+      {filteredOrders.map((order, index) => (
         <div className="mx-auto mt-12 bg-white max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 my-5">
@@ -82,9 +82,7 @@ function UserOrders() {
               <p>Total items in Cart</p>
               <p>{order.totalItems} items</p>
             </div>
-            <p className="mt-0.5 text-sm text-gray-500">
-            Shiping Addresses:
-            </p>
+            <p className="mt-0.5 text-sm text-gray-500">Shiping Addresses:</p>
             <div
               key={index}
               className="flex justify-between mt-6 gap-x-6 px-5 py-5 border-solid border-2 border-gray-200"

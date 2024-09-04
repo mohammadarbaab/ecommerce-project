@@ -1,17 +1,35 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import {
-  fetchLoggedInUserOrders
+  fetchLoggedInUserOrders,
+  updateUser,
+  fetchLoggedInUser,
 } from "./userApi";
-
 const initialState = {
   status: "idle",
   userOrders: [],
+  userInfo: null,
   value: 0,
 };
 export const fetchLoggedInUserOrdersAsync = createAsyncThunk(
   "cart/fetchLoggedInUserOrders",
   async (id) => {
     const response = await fetchLoggedInUserOrders(id);
+
+    return response.data;
+  }
+);
+export const updateUserAsync = createAsyncThunk(
+  "cart/updateUser",
+  async (id) => {
+    const response = await updateUser(id);
+
+    return response.data;
+  }
+);
+export const fetchLoggedInUserAsync = createAsyncThunk(
+  "cart/fetchLoggedInUser",
+  async (id) => {
+    const response = await fetchLoggedInUser(id);
 
     return response.data;
   }
@@ -46,12 +64,29 @@ export const userSlice = createSlice({
         state.status = "idle";
         // this info can be different or more from loggedin user info
         state.userOrders = action.payload;
+      })
+      .addCase(updateUserAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(updateUserAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        // this info can be different or more from loggedin user info
+        state.userInfo = action.payload;
+      })
+      .addCase(fetchLoggedInUserAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchLoggedInUserAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        // this info can be different or more from loggedin user info
+        state.userInfo = action.payload;
       });
   },
 });
 
 export const { increment } = userSlice.actions;
 
-export const selectUserOrders=(state)=>state.user.userOrders
+export const selectUserOrders = (state) => state.user.userOrders;
+export const selectUserInfo = (state) => state.user.userInfo;
 
 export default userSlice.reducer;

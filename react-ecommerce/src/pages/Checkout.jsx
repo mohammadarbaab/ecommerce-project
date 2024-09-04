@@ -18,6 +18,7 @@ import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/order/orderSlice";
+import { selectUserInfo } from "../features/user/userSlice";
 
 const products = [
   {
@@ -95,7 +96,7 @@ function CheckoutPage() {
     // ON SERVER CHANGE THE STOCK NUMBER OF ITEMS
   };
 
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
 
   const {
     register,
