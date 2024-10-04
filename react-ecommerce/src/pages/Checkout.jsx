@@ -11,13 +11,11 @@ import {
 } from "../features/cart/cartSlice";
 import { useForm } from "react-hook-form";
 import {
-  selectLoggedInUser,
-  updateUserAsync,
-} from "../features/auth/authSlice";
-import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/order/orderSlice";
+import { updateUserAsync } from "../features/auth/authSlice";
+import { selectUserInfo } from "../features/user/userSlice";
 
 const products = [
   {
@@ -95,7 +93,9 @@ function CheckoutPage() {
     // ON SERVER CHANGE THE STOCK NUMBER OF ITEMS
   };
 
-  const user = useSelector(selectLoggedInUser);
+  // const user = useSelector(updateUserAsync);
+  // Checkout.jsx
+const user = useSelector(selectUserInfo);
 
   const {
     register,
@@ -297,7 +297,7 @@ function CheckoutPage() {
                   Choose from Existing address
                 </p>
                 <ul role="list">
-                  {user.addresses.map((address, index) => (
+                  {/* {user.addresses.map((address, index) => (
                     <li
                       key={index}
                       className="flex justify-between gap-x-6 px-5 py-5 border-solid border-2 border-gray-200"
@@ -334,7 +334,52 @@ function CheckoutPage() {
                         </p>
                       </div>
                     </li>
-                  ))}
+                  ))} */}
+                  <ul role="list">
+  {user.addresses?.length > 0 ? (
+    user.addresses.map((address, index) => (
+      <li
+        key={index}
+        className="flex justify-between gap-x-6 px-5 py-5 border-solid border-2 border-gray-200"
+      >
+        <div className="flex min-w-0 gap-x-4">
+          <input
+            onChange={handleAddress}
+            id="push-email"
+            name="address"
+            value={index}
+            type="radio"
+            className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+          />
+          <img
+            className="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src={address.imageUrl}
+            alt=""
+          />
+          <div className="min-w-0 flex-auto">
+            <p className="text-sm font-semibold leading-6 text-gray-900">
+              {address.name}
+            </p>
+            <p className="mt-1 truncate text-xs leading-5 text-gray-500">
+              Phone: {address.phone}
+            </p>
+            <p className="mt-1 truncate text-xs leading-5 text-gray-500">
+              Street: {address.street}
+            </p>
+          </div>
+        </div>
+        <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+          <p className="text-sm leading-6 text-gray-500">
+            {address.city}
+          </p>
+        </div>
+      </li>
+    ))
+  ) : (
+    <p>No addresses available.</p>
+  )}
+</ul>
+
                 </ul>
 
                 <div className="mt-10 space-y-10">

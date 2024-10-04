@@ -2063,34 +2063,34 @@
   ],
   "users": [
     {
-      "id": "e021",
+      "id": "9ff7",
       "email": "kazmiwrite@gmail.com",
       "password": "Sufiya@321",
       "addresses": [
         {
-          "name": "Sufiya",
+          "name": "sufii",
           "email": "kazmiwrite@gmail.com",
           "phone": "08057070230",
           "street": "Up Muzaffarnagar",
           "city": "muzaffarnagar",
           "state": "Uttar Pradesh",
-          "pinCode": "23432"
+          "pinCode": "212121"
         }
       ]
     },
     {
-      "id": "7d21",
+      "id": "4175",
       "email": "demo@gmail.com",
       "password": "Demo@321",
       "addresses": [
         {
           "name": "demo",
           "email": "demo@gmail.com",
-          "phone": "08057070230",
+          "phone": "212121212",
           "street": "Up Muzaffarnagar",
           "city": "muzaffarnagar",
           "state": "Uttar Pradesh",
-          "pinCode": "212121212"
+          "pinCode": "21212121"
         }
       ]
     }
@@ -2098,10 +2098,10 @@
   "cart": [],
   "orders": [
     {
-      "id": "7945",
+      "id": "6ed5",
       "items": [
         {
-          "id": "9231",
+          "id": "e785",
           "title": "Powder Canister",
           "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
           "category": "beauty",
@@ -2162,15 +2162,15 @@
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
           "quantity": 1,
-          "user": "e021"
+          "user": "4175"
         }
       ],
       "totalAmount": 14.99,
       "totalItems": 1,
       "user": {
-        "id": "e021",
-        "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
+        "id": "4175",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
         "addresses": [
           {
             "name": "Sufiya",
@@ -2179,7 +2179,7 @@
             "street": "Up Muzaffarnagar",
             "city": "muzaffarnagar",
             "state": "Uttar Pradesh",
-            "pinCode": "23432"
+            "pinCode": "21212121"
           }
         ]
       },
@@ -2191,203 +2191,105 @@
         "street": "Up Muzaffarnagar",
         "city": "muzaffarnagar",
         "state": "Uttar Pradesh",
-        "pinCode": "23432"
+        "pinCode": "21212121"
       },
       "status": "pending"
     },
     {
-      "id": "d5a8",
+      "id": "9629",
       "items": [
         {
-          "id": "804e",
-          "title": "Chanel Coco Noir Eau De",
-          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-          "category": "fragrances",
-          "price": 129.99,
-          "discountPercentage": 18.64,
-          "rating": 2.76,
-          "stock": 41,
+          "id": "19d9",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
           "tags": [
-            "fragrances",
-            "perfumes"
+            "beauty",
+            "face powder"
           ],
-          "brand": "Chanel",
-          "sku": "K71HBCGS",
-          "weight": 4,
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
           "dimensions": {
-            "width": 21.27,
-            "height": 28,
-            "depth": 11.89
-          },
-          "warrantyInformation": "1 week warranty",
-          "shippingInformation": "Ships in 1 month",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 1,
-              "comment": "Disappointing product!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great product!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Excellent quality!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lucas Allen",
-              "reviewerEmail": "lucas.allen@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 5,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.619Z",
-            "updatedAt": "2024-05-23T08:56:21.619Z",
-            "barcode": "1435582999795",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
-          "quantity": 1,
-          "user": "7d21"
-        }
-      ],
-      "totalAmount": 129.99,
-      "totalItems": 1,
-      "user": {
-        "id": "7d21",
-        "email": "demo@gmail.com",
-        "password": "Demo@321",
-        "addresses": [
-          {
-            "name": "demo",
-            "email": "demo@gmail.com",
-            "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121212"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "demo",
-        "email": "demo@gmail.com",
-        "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121212"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "04aa",
-      "items": [
-        {
-          "id": "2ad3",
-          "title": "Annibale Colombo Bed",
-          "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-          "category": "furniture",
-          "price": 1899.99,
-          "discountPercentage": 0.29,
-          "rating": 4.14,
-          "stock": 47,
-          "tags": [
-            "furniture",
-            "beds"
-          ],
-          "brand": "Annibale Colombo",
-          "sku": "4KMDTZWF",
-          "weight": 3,
-          "dimensions": {
-            "width": 28.75,
-            "height": 26.88,
-            "depth": 24.47
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
           },
           "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships overnight",
+          "shippingInformation": "Ships in 1-2 business days",
           "availabilityStatus": "In Stock",
           "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
             {
               "rating": 4,
               "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.620Z",
-              "reviewerName": "Julian Newton",
-              "reviewerEmail": "julian.newton@x.dummyjson.com"
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
             },
             {
               "rating": 5,
-              "comment": "Would buy again!",
-              "date": "2024-05-23T08:56:21.620Z",
-              "reviewerName": "Madison Collins",
-              "reviewerEmail": "madison.collins@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Would buy again!",
-              "date": "2024-05-23T08:56:21.620Z",
-              "reviewerName": "Clara Berry",
-              "reviewerEmail": "clara.berry@x.dummyjson.com"
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "7 days return policy",
-          "minimumOrderQuantity": 1,
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.620Z",
-            "updatedAt": "2024-05-23T08:56:21.620Z",
-            "barcode": "7113807059215",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
-            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
           "quantity": 1,
-          "user": "7d21"
+          "user": "9ff7"
         }
       ],
-      "totalAmount": 1899.99,
+      "totalAmount": 14.99,
       "totalItems": 1,
       "user": {
-        "id": "7d21",
-        "email": "demo@gmail.com",
-        "password": "Demo@321",
+        "id": "9ff7",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Sufiya@321",
         "addresses": [
           {
-            "name": "demo",
-            "email": "demo@gmail.com",
-            "phone": "08057070230",
+            "name": "Sufi",
+            "email": "sufi@gmail.com",
+            "phone": "21212121212121",
             "street": "Up Muzaffarnagar",
             "city": "muzaffarnagar",
             "state": "Uttar Pradesh",
-            "pinCode": "212121212"
+            "pinCode": "21212121"
           }
         ]
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "demo",
-        "email": "demo@gmail.com",
-        "phone": "08057070230",
+        "name": "Sufi",
+        "email": "sufi@gmail.com",
+        "phone": "21212121212121",
         "street": "Up Muzaffarnagar",
         "city": "muzaffarnagar",
         "state": "Uttar Pradesh",
-        "pinCode": "212121212"
+        "pinCode": "21212121"
       },
       "status": "pending"
     }
