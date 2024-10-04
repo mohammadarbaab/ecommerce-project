@@ -1,3 +1,55 @@
+action.payload
+ 
+.fulfilled, (state, action) => {
+        state.s
+ 
+updateUserAsync
+ 
+checkUserAsync
+ 
+
+      .addCase(signOutAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.loggedInUser = action.payload;
+      })
+      .addCase(signOutAsync.rejected, (state, action) => {
+        state.status = "idle";
+       state.loggedInUser =null;
+      });
+ 
+ reject
+ 
+
+      // we will add page later right now use 
+ 
+UserProfilePage
+ 
+
+    <div>
+      
+    </div>
+ 
+ state.error = action.error;
+ 
+checkUser
+ 
+checkUserAsync 
+ 
+ const email = loginInfo.email;
+    const password = loginInfo.password;
+    const response = await fetch("http://localhost:8080/users?email=" + email);
+    const data = await response.json();
+    // console.log({ data });
+    if (data.length) {
+      if (password === data[0].password) {
+        resolve({ data: data[0] });
+      } else {
+        reject({ message: "wrong cred" });
+      }
+    } else {
+      reject({ message: "user not found" });
+    }
+ 
 {
       "id": "08f0",
       "items": [

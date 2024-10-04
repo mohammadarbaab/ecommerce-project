@@ -31,6 +31,7 @@ import UserOrderPage from "./pages/UserOrderPage";
 import UserProfile from "./features/user/components/UserProfile";
 import UserProfilePage from "./pages/UserProfilePage";
 import { fetchLoggedInUserAsync } from "./features/user/userSlice";
+import Logout from "./features/auth/components/Logout";
 
 const router = createBrowserRouter([
   {
@@ -91,6 +92,12 @@ const router = createBrowserRouter([
     element: (
       <UserProfilePage></UserProfilePage>
       // we will add page later right now use 
+    )
+  },
+  {
+    path:'/logout',
+    element: (
+      <Logout></Logout>
     )
   },
   {
