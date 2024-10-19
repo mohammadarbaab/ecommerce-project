@@ -11,7 +11,7 @@ import {
   fetchCategoriesAsync,
   fetchBrandsAsync,
 } from "../productSlice";
-import { ITEMS_PER_PAGE } from "../../app/constants";
+import { ITEMS_PER_PAGE } from "../../../app/constants";
 import {
   Dialog,
   DialogBackdrop,

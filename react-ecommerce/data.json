@@ -1806,6 +1806,23 @@
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+    },
+    {
+      "id": "a0fd",
+      "title": "oppo is greate",
+      "brand": "Lipstick",
+      "category": "smartphones",
+      "price": "121",
+      "discountPercentage": "21",
+      "stock": "12",
+      "thumbnail": "https://www.google.com/imgres?q=clothes%20for%20men&imgurl=https%3A%2F%2Fassets.myntassets.com%2Fdpr_1.5%2Cq_60%2Cw_400%2Cc_limit%2Cfl_progressive%2Fassets%2Fimages%2F8717979%2F2019%2F3%2F20%2F585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg&imgrefurl=https%3A%2F%2Fwww.myntra.com%2Fmen-clothing&docid=Eu752MzIP3AZjM&tbnid=J6Wdl-RIAQ9edM&vet=12ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA..i&w=600&h=800&hcb=2&ved=2ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA",
+      "images": [
+        "https://media.istockphoto.com/id/1394988455/photo/laptop-with-a-blank-screen-on-a-white-background.jpg?s=612x612&w=0&k=20&c=BXNMs3xZNXP__d22aVkeyfvgJ5T18r6HuUTEESYf_tE=",
+        "https://media.istockphoto.com/id/1394988455/photo/laptop-with-a-blank-screen-on-a-white-background.jpg?s=612x612&w=0&k=20&c=BXNMs3xZNXP__d22aVkeyfvgJ5T18r6HuUTEESYf_tE=",
+        "https://media.istockphoto.com/id/1394988455/photo/laptop-with-a-blank-screen-on-a-white-background.jpg?s=612x612&w=0&k=20&c=BXNMs3xZNXP__d22aVkeyfvgJ5T18r6HuUTEESYf_tE=",
+        "https://www.google.com/imgres?q=clothes%20for%20men&imgurl=https%3A%2F%2Fassets.myntassets.com%2Fdpr_1.5%2Cq_60%2Cw_400%2Cc_limit%2Cfl_progressive%2Fassets%2Fimages%2F8717979%2F2019%2F3%2F20%2F585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg&imgrefurl=https%3A%2F%2Fwww.myntra.com%2Fmen-clothing&docid=Eu752MzIP3AZjM&tbnid=J6Wdl-RIAQ9edM&vet=12ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA..i&w=600&h=800&hcb=2&ved=2ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA"
+      ],
+      "rating": 0
     }
   ],
   "categories": [
@@ -2063,436 +2080,54 @@
   ],
   "users": [
     {
-      "id": "9ff7",
-      "email": "kazmiwrite@gmail.com",
-      "password": "Sufiya@321",
-      "addresses": [
-        {
-          "name": "sufiie",
-          "email": "kazmiwrite@gmail.com",
-          "city": "muzaffarnagar",
-          "state": "Uttar Pradesh",
-          "pinCode": "212121",
-          "phone": "08057070230",
-          "street": "Up Muzaffarnagar"
-        }
-      ]
+      "id": "73d8",
+      "email": "admin@gmail.com",
+      "password": "Admin@321",
+      "addresses": [],
+      "role": "admin"
     },
     {
-      "id": "4175",
+      "id": "8e1e",
       "email": "demo@gmail.com",
       "password": "Demo@321",
       "addresses": [
         {
-          "name": "demo",
-          "email": "demo@gmail.com",
-          "phone": "212121212",
-          "street": "Up Muzaffarnagar",
-          "city": "muzaffarnagar",
-          "state": "Uttar Pradesh",
-          "pinCode": "21212121"
+          "name": "sayyad arbaab",
+          "email": "kazmiwrite@gmail.com",
+          "phone": "08057070230",
+          "street": "India",
+          "city": "mzn",
+          "state": "Uttar Pradesh",
+          "pinCode": "122"
         }
-      ]
+      ],
+      "role": "user"
+    },
+    {
+      "id": "4476",
+      "email": "kazmiwrite@gmail.com",
+      "password": "Kazmi@321",
+      "addresses": [
+        {
+          "name": "sufiyaa",
+          "email": "kazmiwrite@gmail.com",
+          "city": "mzn",
+          "state": "Uttar Pradesh",
+          "pinCode": "122",
+          "phone": "08057070230",
+          "street": "India"
+        }
+      ],
+      "role": "user"
     }
   ],
   "cart": [],
   "orders": [
     {
-      "id": "6ed5",
+      "id": "4752",
       "items": [
         {
-          "id": "e785",
-          "title": "Powder Canister",
-          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-          "category": "beauty",
-          "price": 14.99,
-          "discountPercentage": 18.14,
-          "rating": 3.82,
-          "stock": 59,
-          "tags": [
-            "beauty",
-            "face powder"
-          ],
-          "brand": "Velvet Touch",
-          "sku": "9EN8WLT2",
-          "weight": 8,
-          "dimensions": {
-            "width": 24.16,
-            "height": 10.7,
-            "depth": 11.07
-          },
-          "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Ethan Thompson",
-              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Hazel Gardner",
-              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 25,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "0516267971277",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-          "quantity": 1,
-          "user": "4175"
-        }
-      ],
-      "totalAmount": 14.99,
-      "totalItems": 1,
-      "user": {
-        "id": "4175",
-        "email": "demo@gmail.com",
-        "password": "Demo@321",
-        "addresses": [
-          {
-            "name": "Sufiya",
-            "email": "kazmiwrite@gmail.com",
-            "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "21212121"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Sufiya",
-        "email": "kazmiwrite@gmail.com",
-        "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "21212121"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "9629",
-      "items": [
-        {
-          "id": "19d9",
-          "title": "Powder Canister",
-          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-          "category": "beauty",
-          "price": 14.99,
-          "discountPercentage": 18.14,
-          "rating": 3.82,
-          "stock": 59,
-          "tags": [
-            "beauty",
-            "face powder"
-          ],
-          "brand": "Velvet Touch",
-          "sku": "9EN8WLT2",
-          "weight": 8,
-          "dimensions": {
-            "width": 24.16,
-            "height": 10.7,
-            "depth": 11.07
-          },
-          "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Ethan Thompson",
-              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Hazel Gardner",
-              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 25,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "0516267971277",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-          "quantity": 1,
-          "user": "9ff7"
-        }
-      ],
-      "totalAmount": 14.99,
-      "totalItems": 1,
-      "user": {
-        "id": "9ff7",
-        "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
-        "addresses": [
-          {
-            "name": "Sufi",
-            "email": "sufi@gmail.com",
-            "phone": "21212121212121",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "21212121"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Sufi",
-        "email": "sufi@gmail.com",
-        "phone": "21212121212121",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "21212121"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "d243",
-      "items": [
-        {
-          "id": "74ce",
-          "title": "Powder Canister",
-          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-          "category": "beauty",
-          "price": 14.99,
-          "discountPercentage": 18.14,
-          "rating": 3.82,
-          "stock": 59,
-          "tags": [
-            "beauty",
-            "face powder"
-          ],
-          "brand": "Velvet Touch",
-          "sku": "9EN8WLT2",
-          "weight": 8,
-          "dimensions": {
-            "width": 24.16,
-            "height": 10.7,
-            "depth": 11.07
-          },
-          "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Ethan Thompson",
-              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Hazel Gardner",
-              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 25,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "0516267971277",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-          "quantity": 1,
-          "user": "9ff7"
-        }
-      ],
-      "totalAmount": 14.99,
-      "totalItems": 1,
-      "user": {
-        "id": "9ff7",
-        "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
-        "addresses": [
-          {
-            "name": "sufii",
-            "email": "kazmiwrite@gmail.com",
-            "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "sufii",
-        "email": "kazmiwrite@gmail.com",
-        "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "0e9a",
-      "items": [
-        {
-          "id": "c75c",
-          "title": "Powder Canister",
-          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-          "category": "beauty",
-          "price": 14.99,
-          "discountPercentage": 18.14,
-          "rating": 3.82,
-          "stock": 59,
-          "tags": [
-            "beauty",
-            "face powder"
-          ],
-          "brand": "Velvet Touch",
-          "sku": "9EN8WLT2",
-          "weight": 8,
-          "dimensions": {
-            "width": 24.16,
-            "height": 10.7,
-            "depth": 11.07
-          },
-          "warrantyInformation": "2 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Ethan Thompson",
-              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Hazel Gardner",
-              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 25,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "0516267971277",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-          "quantity": 1
-        }
-      ],
-      "totalAmount": 14.99,
-      "totalItems": 1,
-      "user": {
-        "id": "9ff7",
-        "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
-        "addresses": [
-          {
-            "name": "sufii",
-            "email": "kazmiwrite@gmail.com",
-            "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "sufii",
-        "email": "kazmiwrite@gmail.com",
-        "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "9373",
-      "items": [
-        {
-          "id": "48e6",
+          "id": "7f7f",
           "title": "Red Lipstick",
           "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
           "category": "beauty",
@@ -2552,135 +2187,138 @@
             "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
-          "quantity": 1,
-          "user": "9ff7"
+          "quantity": 2,
+          "user": "8e1e"
         }
       ],
-      "totalAmount": 12.99,
-      "totalItems": 1,
+      "totalAmount": 25.98,
+      "totalItems": 2,
       "user": {
-        "id": "9ff7",
-        "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
+        "id": "8e1e",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
         "addresses": [
           {
-            "name": "sufii",
+            "name": "sayyad arbaab",
             "email": "kazmiwrite@gmail.com",
             "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121"
+            "street": "India",
+            "city": "mzn",
+            "state": "Uttar Pradesh",
+            "pinCode": "122"
           }
-        ]
+        ],
+        "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "sufii",
+        "name": "sayyad arbaab",
         "email": "kazmiwrite@gmail.com",
         "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121"
+        "street": "India",
+        "city": "mzn",
+        "state": "Uttar Pradesh",
+        "pinCode": "122"
       },
       "status": "pending"
     },
     {
-      "id": "d772",
+      "id": "550c",
       "items": [
         {
-          "id": "b29b",
-          "title": "Chanel Coco Noir Eau De",
-          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-          "category": "fragrances",
-          "price": 129.99,
-          "discountPercentage": 18.64,
-          "rating": 2.76,
-          "stock": 41,
+          "id": "8ddd",
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 7.17,
+          "rating": 4.94,
+          "stock": 5,
           "tags": [
-            "fragrances",
-            "perfumes"
+            "beauty",
+            "mascara"
           ],
-          "brand": "Chanel",
-          "sku": "K71HBCGS",
-          "weight": 4,
+          "brand": "Essence",
+          "sku": "RCH45Q1A",
+          "weight": 2,
           "dimensions": {
-            "width": 21.27,
-            "height": 28,
-            "depth": 11.89
+            "width": 23.17,
+            "height": 14.43,
+            "depth": 28.01
           },
-          "warrantyInformation": "1 week warranty",
+          "warrantyInformation": "1 month warranty",
           "shippingInformation": "Ships in 1 month",
-          "availabilityStatus": "In Stock",
+          "availabilityStatus": "Low Stock",
           "reviews": [
             {
-              "rating": 1,
-              "comment": "Disappointing product!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+              "rating": 2,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "John Doe",
+              "reviewerEmail": "john.doe@x.dummyjson.com"
             },
             {
-              "rating": 4,
-              "comment": "Great product!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+              "rating": 2,
+              "comment": "Not as described!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nolan Gonzalez",
+              "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
             },
             {
-              "rating": 4,
-              "comment": "Excellent quality!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lucas Allen",
-              "reviewerEmail": "lucas.allen@x.dummyjson.com"
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Scarlett Wright",
+              "reviewerEmail": "scarlett.wright@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 5,
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 24,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.619Z",
-            "updatedAt": "2024-05-23T08:56:21.619Z",
-            "barcode": "1435582999795",
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "9164035109868",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            "https://static.beautytocare.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//e/s/essence-lash-princess-curl-volume-mascara-12ml.jpg",
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            "https://m.media-amazon.com/images/I/61zzMdJ-bDL._SX569_.jpg"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
           "quantity": 1,
-          "user": "9ff7"
+          "user": "4476"
         }
       ],
-      "totalAmount": 129.99,
+      "totalAmount": 9.99,
       "totalItems": 1,
       "user": {
-        "id": "9ff7",
+        "id": "4476",
         "email": "kazmiwrite@gmail.com",
-        "password": "Sufiya@321",
+        "password": "Kazmi@321",
         "addresses": [
           {
-            "name": "sufii",
+            "name": "sufiya",
             "email": "kazmiwrite@gmail.com",
             "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "212121"
+            "street": "India",
+            "city": "mzn",
+            "state": "Uttar Pradesh",
+            "pinCode": "122"
           }
-        ]
+        ],
+        "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "sufii",
+        "name": "sufiya",
         "email": "kazmiwrite@gmail.com",
         "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "212121"
+        "street": "India",
+        "city": "mzn",
+        "state": "Uttar Pradesh",
+        "pinCode": "122"
       },
       "status": "pending"
     }

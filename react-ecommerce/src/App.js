@@ -18,7 +18,7 @@ import {
 import { Cart } from "./features/cart/Cart";
 import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/Checkout";
-import ProductsDetails from "./productslist/components/productsDetails";
+import ProductsDetails from "./features/productslist/components/productsDetails";
 import ProductDetailPage from "./pages/ProductDetail";
 import Protected from "./features/auth/components/Protected";
 import { useDispatch, useSelector } from "react-redux";
@@ -33,6 +33,11 @@ import UserProfilePage from "./pages/UserProfilePage";
 import { fetchLoggedInUserAsync } from "./features/user/userSlice";
 import Logout from "./features/auth/components/Logout";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ProtectedAdmin from "./features/auth/components/ProtectedAdmin";
+import AdminHome from "./pages/AdminHome";
+import AdminProductDetailPage from "./pages/AdminProductDetailPage";
+import ProductForm from "./features/admin/ProductForm";
+import AdminProductFormPage from "./pages/AdminProductFormPage";
 
 const router = createBrowserRouter([
   {
@@ -76,6 +81,14 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/admin/product-detail/:id",
+    element: (
+      <ProtectedAdmin>
+        <AdminProductDetailPage></AdminProductDetailPage>
+      </ProtectedAdmin>
+    ),
+  },
+  {
     path:'/order-success/:id',
     element: (
       <OrderSuccessPage></OrderSuccessPage>
@@ -105,6 +118,22 @@ const router = createBrowserRouter([
     path:'/forgot-password',
     element: (
       <ForgotPasswordPage></ForgotPasswordPage>
+    )
+  },
+  {
+    path:'/admin',
+    element: (
+      <ProtectedAdmin>
+      <AdminHome></AdminHome>
+      </ProtectedAdmin>
+    )
+  },
+  {
+    path:'/admin/product-form',
+    element: (
+      <ProtectedAdmin>
+      <AdminProductFormPage></AdminProductFormPage>
+      </ProtectedAdmin>
     )
   },
   {

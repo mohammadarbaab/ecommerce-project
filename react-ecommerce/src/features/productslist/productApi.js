@@ -67,6 +67,43 @@ export function fetchBrands() {
     resolve({ data });
   });
 }
+// Product api
+// export function createProduct(product) {
+//   return new Promise(async (resolve) => {
+//     const response = await fetch("http://localhost:8080/products/",{
+//       method:'POST',
+//       body:JSON.stringify(product),
+//       headers:{'content-type':'application/json'}
+//     })
+//    const data =await response.json();
+//    resolve({data});
+
+//   });
+// }
+
+
+
+export function createProduct(product) {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await fetch("http://localhost:8080/products/", {
+        method: 'POST',
+        body: JSON.stringify(product),
+        headers: { 'content-type': 'application/json' }
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error! Status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      resolve({ data });
+    } catch (error) {
+      console.error("Error creating product:", error);
+      reject(error);
+    }
+  });
+}
 
 // CREATE API FOR FETCHCATEGORIES
 export function fetchCategories() {
