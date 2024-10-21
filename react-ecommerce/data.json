@@ -2,18 +2,18 @@
   "products": [
     {
       "id": "1",
-      "title": "Essence Mascara Lash Princess",
+      "title": "Essence Mascara Lash Princess lala",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
-      "category": "beauty",
-      "price": 9.99,
-      "discountPercentage": 7.17,
-      "rating": 4.94,
+      "category": "skincare",
+      "price": 12,
+      "discountPercentage": 1,
+      "rating": 0,
       "stock": 5,
       "tags": [
         "beauty",
         "mascara"
       ],
-      "brand": "Essence",
+      "brand": "Foundation",
       "sku": "RCH45Q1A",
       "weight": 2,
       "dimensions": {
@@ -59,9 +59,10 @@
         "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
         "https://static.beautytocare.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//e/s/essence-lash-princess-curl-volume-mascara-12ml.jpg",
         "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
-        "https://m.media-amazon.com/images/I/61zzMdJ-bDL._SX569_.jpg"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "2",
@@ -127,18 +128,18 @@
     },
     {
       "id": "3",
-      "title": "Powder Canister",
+      "title": "Powder Canister fila",
       "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-      "category": "beauty",
-      "price": 14.99,
-      "discountPercentage": 18.14,
-      "rating": 3.82,
-      "stock": 59,
+      "category": "skincare",
+      "price": 14,
+      "discountPercentage": 18,
+      "rating": 0,
+      "stock": 5,
       "tags": [
         "beauty",
         "face powder"
       ],
-      "brand": "Velvet Touch",
+      "brand": "Foundation",
       "sku": "9EN8WLT2",
       "weight": 8,
       "dimensions": {
@@ -183,9 +184,10 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
     },
     {
       "id": "4",
@@ -1823,6 +1825,23 @@
         "https://www.google.com/imgres?q=clothes%20for%20men&imgurl=https%3A%2F%2Fassets.myntassets.com%2Fdpr_1.5%2Cq_60%2Cw_400%2Cc_limit%2Cfl_progressive%2Fassets%2Fimages%2F8717979%2F2019%2F3%2F20%2F585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg&imgrefurl=https%3A%2F%2Fwww.myntra.com%2Fmen-clothing&docid=Eu752MzIP3AZjM&tbnid=J6Wdl-RIAQ9edM&vet=12ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA..i&w=600&h=800&hcb=2&ved=2ahUKEwjYo96Isd6FAxWmTGwGHUeKAUMQM3oECGgQAA"
       ],
       "rating": 0
+    },
+    {
+      "id": "8f55",
+      "title": "gshock is good",
+      "brand": "Boots",
+      "category": "smartphones",
+      "price": 2800,
+      "discountPercentage": 23,
+      "stock": 5,
+      "thumbnail": "https://m.media-amazon.com/images/I/71girhyQcJL._SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71girhyQcJL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71girhyQcJL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71girhyQcJL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71girhyQcJL._SX679_.jpg"
+      ],
+      "rating": 0
     }
   ],
   "categories": [
@@ -2083,7 +2102,17 @@
       "id": "73d8",
       "email": "admin@gmail.com",
       "password": "Admin@321",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "admin",
+          "email": "admin",
+          "phone": "98989898",
+          "street": "admin",
+          "city": "admin",
+          "state": "admin",
+          "pinCode": "212121"
+        }
+      ],
       "role": "admin"
     },
     {
@@ -2109,7 +2138,7 @@
       "password": "Kazmi@321",
       "addresses": [
         {
-          "name": "sufiyaa",
+          "name": "kazmi",
           "email": "kazmiwrite@gmail.com",
           "city": "mzn",
           "state": "Uttar Pradesh",
@@ -2119,179 +2148,191 @@
         }
       ],
       "role": "user"
+    },
+    {
+      "id": "21fa",
+      "email": "sufiya@gmail.com",
+      "password": "Sufiya@321",
+      "addresses": [
+        {
+          "name": "Sufiyaaa",
+          "email": "sufi@gmail.com",
+          "city": "muzaffarnagar",
+          "state": "Uttar Pradesh",
+          "pinCode": "989898",
+          "phone": "08057070230",
+          "street": "Up Muzaffarnagar"
+        }
+      ],
+      "role": "user"
     }
   ],
   "cart": [],
   "orders": [
     {
-      "id": "4752",
+      "id": "c4ca",
       "items": [
         {
-          "id": "7f7f",
-          "title": "Red Lipstick",
-          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-          "category": "beauty",
-          "price": 12.99,
-          "discountPercentage": 19.03,
-          "rating": 2.51,
-          "stock": 68,
+          "id": "6cc6",
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+          "category": "fragrances",
+          "price": 129.99,
+          "discountPercentage": 18.64,
+          "rating": 2.76,
+          "stock": 41,
           "tags": [
-            "beauty",
-            "lipstick"
+            "fragrances",
+            "perfumes"
           ],
-          "brand": "Chic Cosmetics",
-          "sku": "O5IF1NTA",
-          "weight": 5,
+          "brand": "Chanel",
+          "sku": "K71HBCGS",
+          "weight": 4,
           "dimensions": {
-            "width": 14.37,
-            "height": 13.94,
-            "depth": 14.6
+            "width": 21.27,
+            "height": 28,
+            "depth": 11.89
           },
-          "warrantyInformation": "Lifetime warranty",
-          "shippingInformation": "Ships in 2 weeks",
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 1 month",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 5,
-              "comment": "Great product!",
+              "rating": 1,
+              "comment": "Disappointing product!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Leo Rivera",
-              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
             },
             {
               "rating": 4,
-              "comment": "Very pleased!",
+              "comment": "Great product!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Oscar Powers",
-              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
             },
             {
-              "rating": 5,
-              "comment": "Very pleased!",
+              "rating": 4,
+              "comment": "Excellent quality!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Carter Rivera",
-              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+              "reviewerName": "Lucas Allen",
+              "reviewerEmail": "lucas.allen@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "90 days return policy",
-          "minimumOrderQuantity": 6,
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 5,
           "meta": {
             "createdAt": "2024-05-23T08:56:21.619Z",
             "updatedAt": "2024-05-23T08:56:21.619Z",
-            "barcode": "9444582199406",
+            "barcode": "1435582999795",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
-          "quantity": 2,
-          "user": "8e1e"
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+          "quantity": 1,
+          "user": "21fa"
         }
       ],
-      "totalAmount": 25.98,
-      "totalItems": 2,
+      "totalAmount": 129.99,
+      "totalItems": 1,
       "user": {
-        "id": "8e1e",
-        "email": "demo@gmail.com",
-        "password": "Demo@321",
+        "id": "21fa",
+        "email": "sufiya@gmail.com",
+        "password": "Sufiya@321",
         "addresses": [
           {
-            "name": "sayyad arbaab",
-            "email": "kazmiwrite@gmail.com",
+            "name": "Sufiya",
+            "email": "sufi@gmail.com",
             "phone": "08057070230",
-            "street": "India",
-            "city": "mzn",
-            "state": "Uttar Pradesh",
-            "pinCode": "122"
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "989898"
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "sayyad arbaab",
-        "email": "kazmiwrite@gmail.com",
+        "name": "Sufiya",
+        "email": "sufi@gmail.com",
         "phone": "08057070230",
-        "street": "India",
-        "city": "mzn",
-        "state": "Uttar Pradesh",
-        "pinCode": "122"
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "989898"
       },
       "status": "pending"
     },
     {
-      "id": "550c",
+      "id": "91e3",
       "items": [
         {
-          "id": "8ddd",
-          "title": "Essence Mascara Lash Princess",
-          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
-          "category": "beauty",
-          "price": 9.99,
-          "discountPercentage": 7.17,
-          "rating": 4.94,
-          "stock": 5,
+          "id": "d4bb",
+          "title": "Apple",
+          "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+          "category": "groceries",
+          "price": 1.99,
+          "discountPercentage": 1.97,
+          "rating": 2.96,
+          "stock": 9,
           "tags": [
-            "beauty",
-            "mascara"
+            "fruits"
           ],
-          "brand": "Essence",
-          "sku": "RCH45Q1A",
-          "weight": 2,
+          "sku": "QTROUV79",
+          "weight": 8,
           "dimensions": {
-            "width": 23.17,
-            "height": 14.43,
-            "depth": 28.01
+            "width": 8.29,
+            "height": 5.58,
+            "depth": 12.41
           },
-          "warrantyInformation": "1 month warranty",
-          "shippingInformation": "Ships in 1 month",
-          "availabilityStatus": "Low Stock",
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 2,
-              "comment": "Very unhappy with my purchase!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "John Doe",
-              "reviewerEmail": "john.doe@x.dummyjson.com"
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Logan Lee",
+              "reviewerEmail": "logan.lee@x.dummyjson.com"
             },
             {
-              "rating": 2,
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Elena Long",
+              "reviewerEmail": "elena.long@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
               "comment": "Not as described!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Nolan Gonzalez",
-              "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Very satisfied!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Scarlett Wright",
-              "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Grayson Coleman",
+              "reviewerEmail": "grayson.coleman@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "30 days return policy",
-          "minimumOrderQuantity": 24,
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 44,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "9164035109868",
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "2517819903837",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
-            "https://static.beautytocare.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//e/s/essence-lash-princess-curl-volume-mascara-12ml.jpg",
-            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
-            "https://m.media-amazon.com/images/I/61zzMdJ-bDL._SX569_.jpg"
+            "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png",
           "quantity": 1,
           "user": "4476"
         }
       ],
-      "totalAmount": 9.99,
+      "totalAmount": 1.99,
       "totalItems": 1,
       "user": {
         "id": "4476",
@@ -2299,26 +2340,125 @@
         "password": "Kazmi@321",
         "addresses": [
           {
-            "name": "sufiya",
+            "name": "kazmi",
             "email": "kazmiwrite@gmail.com",
-            "phone": "08057070230",
-            "street": "India",
             "city": "mzn",
             "state": "Uttar Pradesh",
-            "pinCode": "122"
+            "pinCode": "122",
+            "phone": "08057070230",
+            "street": "India"
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "sufiya",
+        "name": "kazmi",
         "email": "kazmiwrite@gmail.com",
-        "phone": "08057070230",
-        "street": "India",
         "city": "mzn",
         "state": "Uttar Pradesh",
-        "pinCode": "122"
+        "pinCode": "122",
+        "phone": "08057070230",
+        "street": "India"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "8850",
+      "items": [
+        {
+          "id": "e562",
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 5.5,
+          "rating": 3.28,
+          "stock": 44,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "MVCFH27F",
+          "weight": 3,
+          "dimensions": {
+            "width": 12.42,
+            "height": 8.63,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nora Russell",
+              "reviewerEmail": "nora.russell@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 32,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "2817839095220",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "quantity": 1,
+          "user": "73d8"
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "id": "73d8",
+        "email": "admin@gmail.com",
+        "password": "Admin@321",
+        "addresses": [
+          {
+            "name": "admin",
+            "email": "admin",
+            "phone": "98989898",
+            "street": "admin",
+            "city": "admin",
+            "state": "admin",
+            "pinCode": "212121"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "admin",
+        "email": "admin",
+        "phone": "98989898",
+        "street": "admin",
+        "city": "admin",
+        "state": "admin",
+        "pinCode": "212121"
       },
       "status": "pending"
     }

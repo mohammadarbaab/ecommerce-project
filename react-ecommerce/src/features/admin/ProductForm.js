@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import { useDispatch, useSelector } from "react-redux";
 import {
+  clearSelectedProduct,
   createProductAsync,
+  fetchAllProductByIdAsync,
   selectBrands,
   selectCategories,
+  selectProductById,
+  updateProductAsync,
 } from "../productslist/productSlice";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router-dom";
+import { resetCart } from "../cart/cartApi";
 
 function ProductForm() {
   const brands = useSelector(selectBrands);
@@ -15,8 +21,41 @@ function ProductForm() {
   const {
     register,
     handleSubmit,
+    setValue,
+    reset,
     formState: { errors },
   } = useForm();
+  const params = useParams();
+  const selectedProduct = useSelector(selectProductById);
+
+  useEffect(() => {
+    if (params.id) {
+      dispatch(fetchAllProductByIdAsync(params.id));
+    } else {
+      dispatch(clearSelectedProduct());
+    }
+  }, [params.id, dispatch]);
+
+  useEffect(() => {
+    if (selectedProduct && params.id) {
+      setValue("title", selectedProduct.title);
+      setValue("description", selectedProduct.description);
+      setValue("price", selectedProduct.price);
+      setValue("discountPercentage", selectedProduct.discountPercentage);
+      setValue("image1", selectedProduct.images[0]);
+      setValue("image2", selectedProduct.images[1]);
+      setValue("image3", selectedProduct.images[2]);
+      setValue("brand", selectedProduct.brand);
+      setValue("category", selectedProduct.category);
+    }
+  }, [selectedProduct, params.id, setValue]);
+
+  const handleDelete = () => {
+    const product = { ...selectedProduct };  // Destructure selectedProduct correctly
+    product.deleted = true;                  // Set the deleted flag to true
+    dispatch(updateProductAsync(product));    // Dispatch the async update
+  };
+  
   return (
     <div>
       <form
@@ -28,17 +67,27 @@ function ProductForm() {
             product.image3,
             product.thumbnail,
           ];
-          product.rating = 0;
+          product.rating = product.rating || 0;
           delete product.image1;
           delete product.image2;
           delete product.image3;
+          product.price = +product.price;
+          product.stock = +product.stock;
+          product.discountPercentage = +product.discountPercentage;
 
           console.log(product);
           // dispatch(
           //   // add product
           // );
           // console.log(data);
-          dispatch(createProductAsync(product));
+          if (params.id) {
+            product.id = params.id;
+            product.rating = selectedProduct.rating || 0;
+            dispatch(updateProductAsync(product));
+            reset();
+          } else {
+            dispatch(createProductAsync(product));
+          }
         })}
       >
         <div className="space-y-12 bg-white p-12">
@@ -105,8 +154,10 @@ function ProductForm() {
                       required: "brand is required",
                     })}
                   >
-                    {brands.map((brand,index) => (
-                      <option key={index} value={brand.value}>{brand.label}</option>
+                    {brands.map((brand, index) => (
+                      <option key={index} value={brand.value}>
+                        {brand.label}
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -125,8 +176,10 @@ function ProductForm() {
                       required: "categories is required",
                     })}
                   >
-                    {categeories.map((category,index) => (
-                      <option key={index} value={category.value}>{category.label}</option>
+                    {categeories.map((category, index) => (
+                      <option key={index} value={category.value}>
+                        {category.label}
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -137,7 +190,7 @@ function ProductForm() {
                   htmlFor="username"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Price Name
+                  Price
                 </label>
                 <div className="mt-2">
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600  ">
@@ -429,6 +482,15 @@ function ProductForm() {
           >
             Cancel
           </button>
+          {selectedProduct && (
+            <button
+              onClick={handleDelete}
+              type="button"
+              className="text-sm font-semibold leading-6 bg-red text-gray-900"
+            >
+              Delete
+            </button>
+          )}
           <button
             type="submit"
             className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

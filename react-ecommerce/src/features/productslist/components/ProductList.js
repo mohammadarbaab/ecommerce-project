@@ -108,6 +108,7 @@ export function ProductList() {
   useEffect(() => {
     const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
     dispatch(fetchProductsByFilterAsync({ filter, sort, pagination }));
+    // TODO :Server will filter delted products
   }, [dispatch, filter, sort, page]);
   useEffect(() => {
     setPage(1);
@@ -493,6 +494,11 @@ function ProductGrid({ products }) {
                     {product.category}
                   </p>
                 </div>
+                {product.deleted && (
+                  <div className="text-sm text-red-600 ">
+                    <p>product deleted</p>
+                  </div>
+                )}
               </div>
             </Link>
           ))}

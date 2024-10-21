@@ -2,6 +2,7 @@
 export function fetchAllProducts(amount = 1) {
   return new Promise(async (resolve) => {
     const response = await fetch("http://localhost:8080/products");
+    // TODO :Server will filter delted products
     const data = await response.json();
     resolve({ data });
   });
@@ -27,6 +28,7 @@ export function fetchAllProducts(amount = 1) {
 export function fetchProductsByFilters(filter, sort) {
   //filter ={"category":["smartphone",]}
   //sort ={_sort:price,_order="desc"}
+  // TODO :Server will filter delted products
   let queryString = "";
   for (let key in filter) {
     const categoryValues = filter[key];
@@ -121,3 +123,16 @@ export function fetchProductById(id) {
     resolve({ data });
   });
 }
+
+export function updateProduct(update) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:8080/products/" + update.id, {
+      method: "PATCH",
+      body: JSON.stringify(update),
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+

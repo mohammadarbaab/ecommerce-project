@@ -210,7 +210,7 @@ export function AdminProductList() {
                   
                   <div className="lg:col-span-3">
                   <div>
-                  <Link to='/admin/product-form' className="my-4 mx-10 rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white ">Add New Product</Link>
+                  <Link to='/admin/product-form' className="my-4 mx-8 rounded-md bg-green-600 px-4 py-2  text-sm font-semibold text-white ">Add New Product</Link>
                 </div>
                     {" "}
                     <ProductGrid products={products}></ProductGrid>
@@ -470,14 +470,14 @@ function Pagination({ page, setPage, handlePage, totalItems = 55 }) {
 function ProductGrid({ products }) {
   return (
     <>
-      <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Products</h2>
+      <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8 ">
+        <h2 className="sr-only">Products </h2>
 
-        <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 ">
           {products.map((product, id) => (
             <div>
               <Link to={`product-detail/${product.id}`} key={id}>
-                <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
+                <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col mt-5">
                   <div className="flex-grow overflow-hidden ">
                     <img
                       src={product.thumbnail}
@@ -499,13 +499,18 @@ function ProductGrid({ products }) {
                     <p className="mt-1 text-lg font-medium text-gray-900">
                       {product.category}
                     </p>
+                    {
+                      product.deleted && <div className="text-sm text-red-600 ">
+                      <p>product deleted</p>
+                    </div>
+                    }
                   </div>
                 </div>
               </Link>
-              <div>
-                <button className="my-4 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white ">
+              <div className="mt-5">
+                <Link to={`/admin/product-form/edit/${product.id}`} className="my-4 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white ">
                   Edit Product
-                </button>
+                </Link>
               </div>
             </div>
           ))}
