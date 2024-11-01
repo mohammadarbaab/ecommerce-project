@@ -11,7 +11,7 @@ import {
   fetchCategoriesAsync,
   fetchBrandsAsync,
 } from "../productSlice";
-import { ITEMS_PER_PAGE } from "../../../app/constants";
+import { discountPrice, ITEMS_PER_PAGE } from "../../../app/constants";
 import {
   Dialog,
   DialogBackdrop,
@@ -485,11 +485,14 @@ function ProductGrid({ products }) {
                 <div className="mt-4 text-center">
                   <h3 className="text-sm text-gray-700">
                     <StarIcon className="w-6 h-6 inline"></StarIcon>
-                    <span className="align-bottom">{product.rating.rate}</span>
+                    <span className="align-bottom">{product.rating}</span>
                   </h3>
-                  <p className="mt-1 text-lg font-medium text-gray-900">
+                  <p className="text-sm block line-through font-medium text-gray-400">
                     ${product.price}
                   </p>
+                  <p className="text-sm block font-medium text-gray-900">
+                      ${discountPrice(product)}
+                    </p>
                   <p className="mt-1 text-lg font-medium text-gray-900">
                     {product.category}
                   </p>

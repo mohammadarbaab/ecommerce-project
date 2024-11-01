@@ -24,8 +24,8 @@ export function fetchAllProducts(amount = 1) {
 //     resolve({ data });
 //   });
 // }
-
-export function fetchProductsByFilters(filter, sort) {
+// pagination add in this api
+export function fetchProductsByFilters(filter, sort, pagination) {
   //filter ={"category":["smartphone",]}
   //sort ={_sort:price,_order="desc"}
   // TODO :Server will filter delted products
@@ -40,8 +40,14 @@ export function fetchProductsByFilters(filter, sort) {
   for (let key in sort) {
     queryString += `${key}=${sort[key]}&`;
   }
+  console.log(pagination); // this line add
   queryString = queryString.slice(0, -1); // Remove the trailing '&'
   console.log("Query String:", queryString);
+
+  // add this new code in this api
+  for (let key in pagination) {
+    queryString += `${key}=${pagination[key]}$`;
+  }
 
   return new Promise(async (resolve) => {
     try {
@@ -83,15 +89,13 @@ export function fetchBrands() {
 //   });
 // }
 
-
-
 export function createProduct(product) {
   return new Promise(async (resolve, reject) => {
     try {
       const response = await fetch("http://localhost:8080/products/", {
-        method: 'POST',
+        method: "POST",
         body: JSON.stringify(product),
-        headers: { 'content-type': 'application/json' }
+        headers: { "content-type": "application/json" },
       });
 
       if (!response.ok) {
@@ -118,7 +122,7 @@ export function fetchCategories() {
 
 export function fetchProductById(id) {
   return new Promise(async (resolve) => {
-    const response = await fetch("http://localhost:8080/products/"+id);
+    const response = await fetch("http://localhost:8080/products/" + id);
     const data = await response.json();
     resolve({ data });
   });
@@ -126,13 +130,15 @@ export function fetchProductById(id) {
 
 export function updateProduct(update) {
   return new Promise(async (resolve) => {
-    const response = await fetch("http://localhost:8080/products/" + update.id, {
-      method: "PATCH",
-      body: JSON.stringify(update),
-      headers: { "content-type": "application/json" },
-    });
+    const response = await fetch(
+      "http://localhost:8080/products/" + update.id,
+      {
+        method: "PATCH",
+        body: JSON.stringify(update),
+        headers: { "content-type": "application/json" },
+      }
+    );
     const data = await response.json();
     resolve({ data });
   });
 }
-

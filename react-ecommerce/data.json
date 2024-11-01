@@ -2138,30 +2138,13 @@
       "password": "Kazmi@321",
       "addresses": [
         {
-          "name": "kazmi",
+          "name": "Sayyed",
           "email": "kazmiwrite@gmail.com",
-          "city": "mzn",
-          "state": "Uttar Pradesh",
-          "pinCode": "122",
           "phone": "08057070230",
-          "street": "India"
-        }
-      ],
-      "role": "user"
-    },
-    {
-      "id": "21fa",
-      "email": "sufiya@gmail.com",
-      "password": "Sufiya@321",
-      "addresses": [
-        {
-          "name": "Sufiyaaa",
-          "email": "sufi@gmail.com",
+          "street": "Up Muzaffarnagar",
           "city": "muzaffarnagar",
           "state": "Uttar Pradesh",
-          "pinCode": "989898",
-          "phone": "08057070230",
-          "street": "Up Muzaffarnagar"
+          "pinCode": "212121"
         }
       ],
       "role": "user"
@@ -2170,109 +2153,204 @@
   "cart": [],
   "orders": [
     {
-      "id": "c4ca",
+      "id": "4331",
       "items": [
         {
-          "id": "6cc6",
-          "title": "Chanel Coco Noir Eau De",
-          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-          "category": "fragrances",
-          "price": 129.99,
-          "discountPercentage": 18.64,
-          "rating": 2.76,
-          "stock": 41,
+          "id": "49df",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
           "tags": [
-            "fragrances",
-            "perfumes"
+            "beauty",
+            "lipstick"
           ],
-          "brand": "Chanel",
-          "sku": "K71HBCGS",
-          "weight": 4,
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
           "dimensions": {
-            "width": 21.27,
-            "height": 28,
-            "depth": 11.89
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
           },
-          "warrantyInformation": "1 week warranty",
-          "shippingInformation": "Ships in 1 month",
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 1,
-              "comment": "Disappointing product!",
-              "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
+              "rating": 5,
               "comment": "Great product!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lincoln Kelly",
-              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
             },
             {
               "rating": 4,
-              "comment": "Excellent quality!",
+              "comment": "Very pleased!",
               "date": "2024-05-23T08:56:21.619Z",
-              "reviewerName": "Lucas Allen",
-              "reviewerEmail": "lucas.allen@x.dummyjson.com"
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 5,
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
           "meta": {
             "createdAt": "2024-05-23T08:56:21.619Z",
             "updatedAt": "2024-05-23T08:56:21.619Z",
-            "barcode": "1435582999795",
+            "barcode": "9444582199406",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-            "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
           "quantity": 1,
-          "user": "21fa"
+          "user": "8e1e"
         }
       ],
-      "totalAmount": 129.99,
+      "totalAmount": 11,
       "totalItems": 1,
       "user": {
-        "id": "21fa",
-        "email": "sufiya@gmail.com",
-        "password": "Sufiya@321",
+        "id": "8e1e",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
         "addresses": [
           {
-            "name": "Sufiya",
-            "email": "sufi@gmail.com",
+            "name": "sayyad arbaab",
+            "email": "kazmiwrite@gmail.com",
             "phone": "08057070230",
-            "street": "Up Muzaffarnagar",
-            "city": "muzaffarnagar",
-            "state": "Uttar Pradesh",
-            "pinCode": "989898"
+            "street": "India",
+            "city": "mzn",
+            "state": "Uttar Pradesh",
+            "pinCode": "122"
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Sufiya",
-        "email": "sufi@gmail.com",
+        "name": "sayyad arbaab",
+        "email": "kazmiwrite@gmail.com",
         "phone": "08057070230",
-        "street": "Up Muzaffarnagar",
-        "city": "muzaffarnagar",
-        "state": "Uttar Pradesh",
-        "pinCode": "989898"
+        "street": "India",
+        "city": "mzn",
+        "state": "Uttar Pradesh",
+        "pinCode": "122"
       },
-      "status": "pending"
+      "status": "dispatched"
     },
     {
-      "id": "91e3",
+      "id": "6b8b",
       "items": [
         {
-          "id": "d4bb",
+          "id": "7f37",
+          "title": "Cucumber",
+          "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+          "category": "groceries",
+          "price": 1.49,
+          "discountPercentage": 11.44,
+          "rating": 4.71,
+          "stock": 22,
+          "tags": [
+            "vegetables"
+          ],
+          "sku": "6KGF2K6Z",
+          "weight": 9,
+          "dimensions": {
+            "width": 11.04,
+            "height": 20.5,
+            "depth": 8.18
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Elijah Hill",
+              "reviewerEmail": "elijah.hill@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Ella Cook",
+              "reviewerEmail": "ella.cook@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 7,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "2597004869708",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png",
+          "quantity": 1,
+          "user": "4476"
+        }
+      ],
+      "totalAmount": 1,
+      "totalItems": 1,
+      "user": {
+        "id": "4476",
+        "email": "kazmiwrite@gmail.com",
+        "password": "Kazmi@321",
+        "addresses": [
+          {
+            "name": "kazmi",
+            "email": "kazmiwrite@gmail.com",
+            "city": "mzn",
+            "state": "Uttar Pradesh",
+            "pinCode": "122",
+            "phone": "08057070230",
+            "street": "India"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "kazmi",
+        "email": "kazmiwrite@gmail.com",
+        "city": "mzn",
+        "state": "Uttar Pradesh",
+        "pinCode": "122",
+        "phone": "08057070230",
+        "street": "India"
+      },
+      "status": "delivered"
+    },
+    {
+      "id": "b37b",
+      "items": [
+        {
+          "id": "d410",
           "title": "Apple",
           "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
           "category": "groceries",
@@ -2332,7 +2410,7 @@
           "user": "4476"
         }
       ],
-      "totalAmount": 1.99,
+      "totalAmount": 2,
       "totalItems": 1,
       "user": {
         "id": "4476",
@@ -2340,125 +2418,125 @@
         "password": "Kazmi@321",
         "addresses": [
           {
-            "name": "kazmi",
+            "name": "Sayyed",
             "email": "kazmiwrite@gmail.com",
-            "city": "mzn",
-            "state": "Uttar Pradesh",
-            "pinCode": "122",
             "phone": "08057070230",
-            "street": "India"
+            "street": "Up Muzaffarnagar",
+            "city": "muzaffarnagar",
+            "state": "Uttar Pradesh",
+            "pinCode": "212121"
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "kazmi",
+        "name": "Sayyed",
         "email": "kazmiwrite@gmail.com",
-        "city": "mzn",
-        "state": "Uttar Pradesh",
-        "pinCode": "122",
         "phone": "08057070230",
-        "street": "India"
+        "street": "Up Muzaffarnagar",
+        "city": "muzaffarnagar",
+        "state": "Uttar Pradesh",
+        "pinCode": "212121"
       },
-      "status": "pending"
+      "status": "delivered"
     },
     {
-      "id": "8850",
+      "id": "4ee9",
       "items": [
         {
-          "id": "e562",
-          "title": "Eyeshadow Palette with Mirror",
-          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-          "category": "beauty",
-          "price": 19.99,
-          "discountPercentage": 5.5,
-          "rating": 3.28,
-          "stock": 44,
+          "id": "7233",
+          "title": "Annibale Colombo Bed",
+          "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+          "category": "furniture",
+          "price": 1899.99,
+          "discountPercentage": 0.29,
+          "rating": 4.14,
+          "stock": 47,
           "tags": [
-            "beauty",
-            "eyeshadow"
+            "furniture",
+            "beds"
           ],
-          "brand": "Glamour Beauty",
-          "sku": "MVCFH27F",
+          "brand": "Annibale Colombo",
+          "sku": "4KMDTZWF",
           "weight": 3,
           "dimensions": {
-            "width": 12.42,
-            "height": 8.63,
-            "depth": 29.13
+            "width": 28.75,
+            "height": 26.88,
+            "depth": 24.47
           },
-          "warrantyInformation": "1 year warranty",
-          "shippingInformation": "Ships in 2 weeks",
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships overnight",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
               "rating": 4,
-              "comment": "Very satisfied!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Liam Garcia",
-              "reviewerEmail": "liam.garcia@x.dummyjson.com"
-            },
-            {
-              "rating": 1,
-              "comment": "Very disappointed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Nora Russell",
-              "reviewerEmail": "nora.russell@x.dummyjson.com"
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Julian Newton",
+              "reviewerEmail": "julian.newton@x.dummyjson.com"
             },
             {
               "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Elena Baker",
-              "reviewerEmail": "elena.baker@x.dummyjson.com"
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "30 days return policy",
-          "minimumOrderQuantity": 32,
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "2817839095220",
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "7113807059215",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
-            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
           "quantity": 1,
-          "user": "73d8"
+          "user": "8e1e"
         }
       ],
-      "totalAmount": 19.99,
+      "totalAmount": 1894,
       "totalItems": 1,
       "user": {
-        "id": "73d8",
-        "email": "admin@gmail.com",
-        "password": "Admin@321",
+        "id": "8e1e",
+        "email": "demo@gmail.com",
+        "password": "Demo@321",
         "addresses": [
           {
-            "name": "admin",
-            "email": "admin",
-            "phone": "98989898",
-            "street": "admin",
-            "city": "admin",
-            "state": "admin",
-            "pinCode": "212121"
+            "name": "sayyad arbaab",
+            "email": "kazmiwrite@gmail.com",
+            "phone": "08057070230",
+            "street": "India",
+            "city": "mzn",
+            "state": "Uttar Pradesh",
+            "pinCode": "122"
           }
         ],
-        "role": "admin"
+        "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "admin",
-        "email": "admin",
-        "phone": "98989898",
-        "street": "admin",
-        "city": "admin",
-        "state": "admin",
-        "pinCode": "212121"
+        "name": "sayyad arbaab",
+        "email": "kazmiwrite@gmail.com",
+        "phone": "08057070230",
+        "street": "India",
+        "city": "mzn",
+        "state": "Uttar Pradesh",
+        "pinCode": "122"
       },
       "status": "pending"
     }
