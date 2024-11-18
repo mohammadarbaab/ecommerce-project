@@ -10,7 +10,9 @@ import {
   selectCategories,
   fetchCategoriesAsync,
   fetchBrandsAsync,
+  selectProductListStatus,
 } from "../productSlice";
+import { Grid } from "react-loader-spinner";
 import { discountPrice, ITEMS_PER_PAGE } from "../../../app/constants";
 import {
   Dialog,
@@ -57,6 +59,7 @@ export function ProductList() {
   const brands = useSelector(selectBrands);
   const categeories = useSelector(selectCategories);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const status=useSelector(selectProductListStatus)
   const [sort, setSort] = useState({});
   const [page, setPage] = useState(1);
   const filters = [
@@ -122,6 +125,7 @@ export function ProductList() {
     <div>
       <div>
         <div className="bg-white">
+         
           <div>
             {/* Mobile filter dialog */}
             <MobileFilter
@@ -210,7 +214,7 @@ export function ProductList() {
                   {/* Product grid */}
                   <div className="lg:col-span-3">
                     {" "}
-                    <ProductGrid products={products}></ProductGrid>
+                    <ProductGrid products={products} status={status}></ProductGrid>
                     <div className="bg-white"></div>
                   </div>
                 </div>
@@ -464,13 +468,25 @@ function Pagination({ page, setPage, handlePage, totalItems = 55 }) {
   );
 }
 
-function ProductGrid({ products }) {
+function ProductGrid({ products,status }) {
   return (
     <>
       <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Products</h2>
 
         <div className=" grid grid-cols-1 gap-x-6 gap-y-10  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        {
+            status==='loading'?<Grid
+            visible={true}
+            height="80"
+            width="80"
+            color="rgb(79, 70, 229)"
+            ariaLabel="grid-loading"
+            radius="12.5"
+            wrapperStyle={{}}
+            wrapperClass="grid-wrapper"
+          />:null
+          }
           {products.map((product, id) => (
             <Link to={`product-detail/${product.id}`} key={id}>
               <div className="min-h-80 lg-h-60 w-full h-56 overflow-hidden border-2 border-solid p-2 rounded-l mx-auto flex flex-col">
@@ -491,8 +507,8 @@ function ProductGrid({ products }) {
                     ${product.price}
                   </p>
                   <p className="text-sm block font-medium text-gray-900">
-                      ${discountPrice(product)}
-                    </p>
+                    ${discountPrice(product)}
+                  </p>
                   <p className="mt-1 text-lg font-medium text-gray-900">
                     {product.category}
                   </p>

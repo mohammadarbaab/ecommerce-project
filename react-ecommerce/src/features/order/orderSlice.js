@@ -8,12 +8,12 @@ const initialState = {
   currentOrder:false,
   totalOrders:0
 };
+// let orderIdCounter = 1;
 // we may need more info of current 
 export const createOrderAsync = createAsyncThunk(
   'order/createOrder',
   async (amount) => {
     const response = await createOrder(amount);
-
     return response.data;
   }
 );
@@ -28,15 +28,23 @@ export const updateOrderAsync = createAsyncThunk(
 );
 
 
+// export const fetchAllOrdersAsync = createAsyncThunk(
+//   'order/fetchAllOrders',
+//   async ({sort,pagination}) => {
+//     const response = await fetchAllOrders(sort,pagination);
+
+//     return response.data;
+//   }
+// );
+
 export const fetchAllOrdersAsync = createAsyncThunk(
   'order/fetchAllOrders',
-  async (pagination) => {
-    const response = await fetchAllOrders(pagination);
-
+  async ({sort, pagination}) => {
+    const response = await fetchAllOrders(sort,pagination);
+    // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
 );
-
 
 export const orderSlice = createSlice({
   name: 'order',
@@ -48,30 +56,30 @@ export const orderSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      .addCase(createOrderAsync.pending, (state) => {
-        state.status = 'loading';
-      })
-      .addCase(createOrderAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
-        state.orders.push(action.payload);
-        state.currentOrder=action.payload
-      })
-      .addCase(fetchAllOrdersAsync.pending, (state) => {
-        state.status = 'loading';
-      })
-      .addCase(fetchAllOrdersAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
-        state.orders=action.payload.orders;
-        state.totalOrders=action.payload.totalOrders
-      })
-      .addCase(updateOrderAsync.pending, (state) => {
-        state.status = 'loading';
-      })
-      .addCase(updateOrderAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
-        const index=state.orders.findIndex(order=>order.id===action.payload.id);
-        state.orders[index]=action.payload;
-      });
+    .addCase(createOrderAsync.pending, (state) => {
+      state.status = 'loading';
+    })
+    .addCase(createOrderAsync.fulfilled, (state, action) => {
+      state.status = 'idle';
+      state.orders.push(action.payload);
+      state.currentOrder=action.payload
+    })
+    .addCase(fetchAllOrdersAsync.pending, (state) => {
+      state.status = 'loading';
+    })
+    .addCase(fetchAllOrdersAsync.fulfilled, (state, action) => {
+      state.status = 'idle';
+      state.orders=action.payload.orders;
+      state.totalOrders=action.payload.totalOrders
+    })
+    .addCase(updateOrderAsync.pending, (state) => {
+      state.status = 'loading';
+    })
+    .addCase(updateOrderAsync.fulfilled, (state, action) => {
+      state.status = 'idle';
+      const index=state.orders.findIndex(order=>order.id===action.payload.id);
+      state.orders[index]=action.payload;
+    });
   },
 });
 

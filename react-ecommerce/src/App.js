@@ -39,6 +39,13 @@ import AdminProductDetailPage from "./pages/AdminProductDetailPage";
 import ProductForm from "./features/admin/ProductForm";
 import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
+import { positions, Provider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
+
+const options = {
+  timeout: 5000,
+  position: positions.BOTTOM_LEFT,
+};
 
 const router = createBrowserRouter([
   {
@@ -90,75 +97,67 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path:'/order-success/:id',
-    element: (
-      <OrderSuccessPage></OrderSuccessPage>
-    )
+    path: "/order-success/:id",
+    element: <OrderSuccessPage></OrderSuccessPage>,
   },
   {
-    path:'/orders',
+    path: "/orders",
     element: (
       <UserOrderPage></UserOrderPage>
-      // we will add page later right now use 
-    )
+      // we will add page later right now use
+    ),
   },
   {
-    path:'/profile',
+    path: "/profile",
     element: (
       <UserProfilePage></UserProfilePage>
-      // we will add page later right now use 
-    )
+      // we will add page later right now use
+    ),
   },
   {
-    path:'/logout',
-    element: (
-      <Logout></Logout>
-    )
+    path: "/logout",
+    element: <Logout></Logout>,
   },
   {
-    path:'/forgot-password',
-    element: (
-      <ForgotPasswordPage></ForgotPasswordPage>
-    )
+    path: "/forgot-password",
+    element: <ForgotPasswordPage></ForgotPasswordPage>,
   },
   {
-    path:'/admin',
+    path: "/admin",
     element: (
       <ProtectedAdmin>
-      <AdminHome></AdminHome>
+        <AdminHome></AdminHome>
       </ProtectedAdmin>
-    )
+    ),
   },
   {
-    path:'/admin/product-form',
+    path: "/admin/product-form",
     element: (
       <ProtectedAdmin>
-      <AdminProductFormPage></AdminProductFormPage>
+        <AdminProductFormPage></AdminProductFormPage>
       </ProtectedAdmin>
-    )
+    ),
   },
   {
-    path:'/admin/product-form/edit/:id',
+    path: "/admin/product-form/edit/:id",
     element: (
       <ProtectedAdmin>
-      <AdminProductFormPage></AdminProductFormPage>
+        <AdminProductFormPage></AdminProductFormPage>
       </ProtectedAdmin>
-    )
+    ),
   },
   {
-    path:'/admin/orders',
+    path: "/admin/orders",
     element: (
       <ProtectedAdmin>
-      <AdminOrdersPage></AdminOrdersPage>
+        <AdminOrdersPage></AdminOrdersPage>
       </ProtectedAdmin>
-    )
+    ),
   },
   {
-    path:'*',
-    element:(
-      <PageNotFound></PageNotFound>
-    )
-  }
+    path: "*",
+    element: <PageNotFound></PageNotFound>,
+  },
 ]);
 
 function App() {
@@ -167,12 +166,14 @@ function App() {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
-      dispatch(fetchLoggedInUserAsync(user.id))
+      dispatch(fetchLoggedInUserAsync(user.id));
     }
-  }, [dispatch,user]);
+  }, [dispatch, user]);
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <Provider template={AlertTemplate} {...options}>
+        <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 }
